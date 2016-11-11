@@ -1,0 +1,58 @@
+# Site settings
+title: 精神科幸存者运动 ——超越精神医学
+email: mdrights@tutanota.de
+tagline: Go beyond Coercive Psychiatry
+description: >
+  独立人格－独立生活－包容异己－关注边缘
+baseurl: "https://mdrights.github.io/beyond-psychiatry"
+url: "https://mdrights.github.io/beyond-psychiatry"
+timezone: UTC
+excerpt_separator: <!--more-->
+
+# Social settings
+#github_username: mdrights
+#googleplus_id: 
+
+
+# Build settings
+markdown: kramdown
+# redcarpet: 
+#  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+exclude: [Gemfile, Gemfile.lock]
+enforce_ssl: mdrights.github.io
+# permalink: /posts/:year/:month/:title.html
+permalink: /posts/:title.html
+
+# Pagination
+# Set the number of posts per page
+paginate: 4
+paginate_path: "/page:num"
+paginate_limit: 7
+
+# Plugins
+#gems:
+#  - jemoji
+#emoji:
+#  src: "/images"
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      excerptable: true
+      sitemap: true
+      comments: true
+      layout: post
+  -
+    scope:
+      path: ""
+    values:
+      cc_by_sa: true
+  -
+    scope:
+      path: "tags"
+    values:
+      layout: tag

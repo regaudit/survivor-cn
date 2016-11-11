@@ -1,2 +1,7 @@
-# beyond-psychiatry
-Website for Beyond Coercive Psychiatry
+
+### ——分享墙内外关于精神健康的社会学和社会运动
+
+<hr>
+
+### ——开放知识，欢迎分享和贡献。
+————有兴趣可联系：MDrights@Telegram

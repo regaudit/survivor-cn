@@ -23,11 +23,17 @@ permalink: /autonomy/
 
 <hr>
 
-[翻译 ]
+### 「翻译 」
+
+{% for post in site.categories.translation %}
++ [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+
+Posted on {{ post.date | date: "%B %e, %Y" }}
+{% endfor %}
 
 - [熬过苯二氮卓（安定类）戒断反应：访问心理学博士Jennifer Leigh ]({{ site.baseurl }}/posts/getting-through-benzodiazepine.html)  
 
-[推荐 ]
+### 「推荐 」
 
 - 減害手冊──脫離精神科藥物（HK《跳制》小组2013年译自美国The Icarus Project的同名英文手册）  
     - [繁体中文网上版：](https://harmreduction2013hk.wordpress.com/)  
@@ -43,4 +49,14 @@ permalink: /autonomy/
 
 **站长注：期待读者你的读后感，包括这手册在中国文化/社会的合适程度，欢迎点[这里](https://github.com/mdrights/beyond-psychiatry/issues/new)回复/评论一下～** 
 
-![手册封面]({{ site.baseurl }}/img/comingoffpsychdrugs.jpg)
+<!--![手册封面]({{ site.baseurl }}/img/comingoffpsychdrugs.jpg)-->
+
+<hr>
+### 「自主生活笔记 」
+
+{% for post in site.categories.autonomy %}
++ [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+
+Posted on {{ post.date | date: "%B %e, %Y" }}
+{% endfor %}
+

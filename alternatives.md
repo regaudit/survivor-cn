@@ -8,8 +8,8 @@ permalink: /alternatives/
 
 ### [幸存者在行动]
 
-- [外国幸存者组织简介：](https://mdrights.github.io/posts/%E5%A4%96%E5%9B%BD%E5%B9%B8%E5%AD%98%E8%80%85%E7%BB%84%E7%BB%87%E8%AF%91%E4%BB%8B.html)
-- [外国幸存者组织一览：](https://mdrights.github.io/posts/%E5%A4%96%E5%9B%BD%E5%B9%B8%E5%AD%98%E8%80%85%E7%BB%84%E7%BB%87%E4%B8%80%E8%A7%88.html)  
+- [外国幸存者组织简介：]({{ site.baseurl }}/posts/2016-02-24-外国幸存者组织译介.html)
+- [外国幸存者组织一览：]({{ site.baseurl }}/posts/2016-02-24-外国幸存者组织一览.html)  
 
 - **提示**  
 
@@ -24,7 +24,7 @@ permalink: /alternatives/
 
 **[翻译]**  
 
-### [TCI-asia 简介：我们的使命、目标](https://mdrights.github.io/posts/TCIasia-%E7%AE%80%E4%BB%8B.html)
+### TCI-asia 简介：我们的使命、目标
 
 	
 - 目标：通过使用全面的策略，倡导社心障碍者的社会融合：包括 ①建立知识基础；②发展和分享社会创新和技巧；③区域性公共政策倡导
@@ -50,4 +50,4 @@ permalink: /alternatives/
 - 在CRPD时代，对人权的限制是行不通的。我们致力探索提升社心障碍者的支持水平——探索一些尊重我们作为“人”的方法。
 
 
-[更多介绍](https://mdrights.github.io/posts/TCIasia-%E7%AE%80%E4%BB%8B.html)
+[更多介绍]({{ site.baseurl }}/posts/2016-02-24-TCIasia-简介.html)

@@ -28,5 +28,5 @@ I am **MDrights** (what?), a professional social researcher/ethnographer, a poli
 - Playback Theatre and Forum Theatre player and conductor
 
 ## My Blogs, My interests
-- [mirror-CN]({{ site.baseurl }}/mirror-CN)  
-- [os-observe]({{ site.baseurl }}/os-observe)
+- [mirror-CN]({{ site.url }}/mirror-CN)  
+- [os-observe]({{ site.url }}/os-observe)

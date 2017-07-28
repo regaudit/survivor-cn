@@ -8,8 +8,8 @@ permalink: /alternatives/
 
 ### [幸存者在行动]
 
-- [外国幸存者组织简介：]({{ site.baseurl }}/posts/2016-02-24-外国幸存者组织译介.html)
-- [外国幸存者组织一览：]({{ site.baseurl }}/posts/2016-02-24-外国幸存者组织一览.html)  
+- [外国幸存者组织简介：]({{ site.baseurl }}/posts/外国幸存者组织译介.html)
+- [外国幸存者组织一览：]({{ site.baseurl }}/posts/外国幸存者组织一览.html)  
 
 - **提示**  
 
@@ -50,4 +50,4 @@ permalink: /alternatives/
 - 在CRPD时代，对人权的限制是行不通的。我们致力探索提升社心障碍者的支持水平——探索一些尊重我们作为“人”的方法。
 
 
-[更多介绍]({{ site.baseurl }}/posts/2016-02-24-TCIasia-简介.html)
+[更多介绍]({{ site.baseurl }}/posts/TCIasia-简介.html)

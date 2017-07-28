@@ -13,6 +13,8 @@ l10n 就是 localisation 的缩写：）
 
 - [联名信：联合国特别联络员关于每人都需获得最高标准精神健康的权利的报告]({{ site.baseurl }}/CRPD-l10n/Sign-on-letter-UN-SR-report.html)
 
+- [TCI-asia: 亚洲地区精神卫生法律一体化策略的报告]({{ site.baseurl }}/CRPD-l10n/Legal-Harmonization-Report-Draft.html)
+
 #{% for page in site.html_files %}
 
 #   + [{{ page.title }}]({{ site.baseurl }}{{ page.url }})

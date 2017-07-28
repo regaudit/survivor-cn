@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Legal Harmonization Report Draft</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <style>
+
+
+/*
+Based on Minimal CSS (minimalcss.com) under the MIT license.
+*/
+
+/* Reset */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Layout */
+body { background-color: #fff; color: #333;	font: 14px/20px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+header { width: 100%; margin: 0 auto; position: relative; padding: 20px 0; margin-bottom: 20px; }
+
+nav ul { margin: 0; }
+nav ul li { display: inline; margin-right: 20px; font-size: 16px; line-height: 28px; color: #333; }
+nav ul li a { color: #333; }
+
+.container { position: relative; max-width: 90%; margin: 0 auto; }
+
+footer { border-top:1px solid #ccc; font-size:11px; line-height:26px; color:#999; }
+footer a { color:#999999; }
+footer a:hover { color:#105CB6; }
+footer ul li { display:inline; list-style:none; padding-left:20px; }
+
+/* Typography */
+a { color: #105CB6; text-decoration: none; }
+a:hover, a:focus { color: #105CB6; text-decoration: underline; }
+a:active { color: #105CB6; }
+
+h1 { font-size: 24px; line-height: 20px; margin: 10px 0; }
+h2 { font-size: 20px; line-height: 20px; margin: 10px 0; }
+h3 { font-size: 16px; line-height: 20px; margin: 10px 0; }
+h4 { font-size: 14px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 12px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 10px; line-height: 20px; margin: 10px 0; }
+h1,h2,h3,h4,h5,h6 { color: #333; }
+
+p { margin-bottom: 10px; }
+
+.float-left     { float: left; }
+.float-right    { float: right; }
+img.float-left  { float: left; margin: 0 20px 20px 0; }
+img.float-right { float: right; margin: 0 0 20px 20px; }
+img.center      { margin: 0 auto; display: block; }
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Misc */
+hr { background-color: #ccc; border: 0px; color: #ccc; height: 1px; margin: 8px 0 20px 0; }
+pre, code { background:#E0ECF6; display:block; margin-bottom: 20px; padding:10px; }
+
+blockquote { margin: 10px 10px 20px; padding: 9px; background-color: #f8f8f8; color: #666; border-left: 5px solid #ddd; font: 14px/20px Georgia, Times, serif; quotes: "\201C" "\201D"; }
+blockquote p { margin: 0; }
+blockquote:before { content: open-quote; font-weight: bold; }
+blockquote:after  { content: close-quote; font-weight: bold; }
+
+/* List */
+ul { list-style-position:inside; }
+ol { list-style-position:inside; }
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th { font-weight: bold; }
+tfoot { font-style: italic; }
+
+/* Metadata part */
+
+.metadata {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+table.metadata td {
+  padding-right: 20px;
+}
+
+.stats {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.graph {
+  width: 100%;
+}
+.graph div { float: left; }
+.graph div:first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.graph div:last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.percent-done    { background-color: rgb(90, 228, 140); height: 10px; }
+.percent-fuzzy   { background-color: rgb(255, 167, 52); height: 10px; }
+.percent-untrans { background-color: #F1F1F1; height: 10px; }
+.legend {
+  font-size: smaller;
+  color: #aaa;
+  padding-top: 12px;
+  text-align: center;
+}
+
+/* Translations */
+table.translations {
+  width: 100%;
+  table-layout: fixed;
+}
+table.translations th, table.translations td {
+  padding: 5px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #E1E1E1;
+}
+table.translations th {
+  text-align: left;
+}
+table.translations th:first-child, table.translations td:first-child { padding-left: 0; }
+table.translations th:last-child, table.translations td:last-child { padding-right: 0; }
+
+.with-comments td {
+  border-bottom: none !important;
+}
+tr.comments div {
+  float: right;
+  max-width: 75%;
+  font-size: smaller;
+  color: #aaa;
+}
+tr.comments div p:last-child { margin-bottom: 0; }
+
+.fuzzy .tra {
+  color: rgb(218, 123, 0);
+}
+
+.msgctxt {
+  color: rgb(70, 109, 137);
+  font-size: smaller;
+  background-color: rgb(217, 232, 242);
+  padding: 1px 2px;
+  margin-right: 4px;
+}
+
+
+  </style>
+</head>
+<body>
+<div class='container'>
+<table class='metadata'>
+<tr><td>Project:</td><td>Legal Harmonization Report Draft</td></tr>
+<tr><td>Language:</td><td>Chinese (China)</td></tr>
+</table>
+<div class='stats'>
+  <div class='graph'>
+    <div class='percent-done' style='width: 9.78261%'>&nbsp;</div>
+    <div class='percent-untrans' style='width: 90.2174%'>&nbsp;</div>
+  </div>
+  <div class='legend'>Translated: 9 of 92 (9 %)  •  Remaining: 83  </div>
+</div>
+<table class='translations'>
+  <thead>
+    <tr>
+      <th>Source text — English</th>
+      <th>Translation — Chinese (China)</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+﻿
+<br>Transforming communities for inclusion
+<br>A position paper on legal harmonization with the CRPD and mental health laws
+<br>Transforming Communities for Inclusion - Asia
+<br>Abstract
+<br>This working paper documents the global and regional trends on legal harmonization of mental health laws with the CRPD, including those jurisdictions where mental health laws did not exist previously</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Table of Contents
+<br>About TCI Asia	3
+<br>About this Working Paper	4
+<br>Introduction	5
+<br>The Global call for Mental Health Legislation	6
+<br>Analysing the WHO Resource Book post the CRPD	7
+<br>Status of the Asian region and mental health laws	9
+<br>Relevant Extracts from concluding observations on the rights of persons with psychosocial disabilities	21
+<br>Strategizing legal harmonization efforts for persons with psychosocial disabilities	29
+<br>The importance of Article 19 of the CRPD for persons with psychosocial disabilities	30
+<br>Legal Harmonization across laws	31
+<br>Towards a CRPD Compliant Mental Health law	32
+<br>Umbrella disability rights legislations	35
+<br>Inclusion in laws not specific to persons with disabilities	39
+<br>The opportunity of the sustainable development goals	41
+<br>Strategies for Legal Harmonization in the Asia region	44
+<br>Specific strategies for countries in the Asian region	45
+<br>Conclusion	50</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+About TCI Asia</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+TCI Asia (Transforming communities for Inclusion of persons with psychosocial disabilities, Asia) is an independent Asian alliance of organizations and persons with psychosocial disabilities, and cross disability supporters, focussing on Article 19 and its realization in the Asian region. Since 2012, TCI Asia has made several country visits, 4 annual plenary consultative processes, 1 strategy development workshop, conducted research and trainings; and has engaged upto 15 member countries and over 100 members, to enhance the pedagogy and practice of Article 19 for the region. On behalf of TCI Asia, Bhargavi Davar presented a paper based on the consultative processes done between 2012-2015 of TCI Asia before the Monitoring Committee of the Convention on the Rights of persons with Disabilities (CRPD) at the Day of General Discussion, towards a General Comment on Article 19.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+About this Working Paper</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+This working paper is one of the outcome documents of the consultative processes which have been taking place around TCI Asia, and has evolved over time from a power point presentation compiled with the inputs of the ‘legal harmonization team’ constituted at the TCI Asia plenary held at the APCD Campus in June, 2015. The legal harmonization team consisted of the following persons:
+<br>1. Oh-yong Kweon, Republic of Korea
+<br>2. Yeni Damayanti Rosa, Malaysia 
+<br>3. Janice Cambri, Philippines
+<br>4. Mahbuba Shilpi, Bangladesh
+<br>5. Kim Tiengtom, Thailand 
+<br>6. Linus Yeung, China
+<br>7. Jagannath Lamichhane, Nepal</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+In addition, there were inputs from other TCI participants such as Mari Yamomoto, Japan and Constance Lu, Taiwan. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+This paper has included those conversations, the Country presentations made by various representatives at the TCI plenaries till March 2016, and email conversations that have taken place since then. The presentation received additional feedback from Bhargavi Davar, Convener, TCI Asia, Alexandre Cote, International Disability Alliance, and Prof. Amita Dhanda, NALSAR University of Law. The working paper requires circulation to the wider group for their feedback and to ensure that it is a useable document.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The shortcomings of the paper should solely be attributed to the author.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Introduction</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+“Where, after all, do universal human rights begin? In small places, close to home - so close and so small that they cannot be seen on any maps of the world. Yet they are the world of the individual person; the neighbourhood he lives in; the school or college he attends; the factory, farm, or office where he works. Such are the places where every man, woman, and child seeks equal justice, equal opportunity, equal dignity without discrimination. Unless these rights have meaning there, they have little meaning anywhere. Without concerted citizen action to uphold them close to home, we shall look in vain for progress in the larger world.” 
+<br>Eleanor Roosevelt, 
+<br>upon the adoption of the Universal Declaration of Human Rights, 1949. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The ratification of the UN Convention on the Rights of Persons with Disabilities has been a watershed moment for persons with psychosocial disabilities, including those from the global south. As stakeholders, we were at the forefront in the negotiations of the Convention, and ensured that the resulting document reflected our hopes and aspirations, thus going beyond mere ‘protection’ of rights. In particular, the drafting of Article 19 of the Convention, which spoke of the right to live independently and within the community, was of special relevance. 
+<br>All impairments have had the common legacy of being seen from a medical lens, as something that needed a cure, as opposed to being one more aspect of human diversity on the lines of gender, race, sexuality etc. In the case of psychosocial disability, even ‘treatment’ is a space for violation of human rights and dignity. The legacy of colonial rule in countries in the global south has been the regulation of persons with psychosocial disabilities and their properties by way of law – and to even term it as criminalization would not be out of place. After the British crown took over the East India Company in 1858, one of the first legislations enacted were pertaining to asylums for ‘lunatics and idiots’1. In many other countries, there were no mental health legislations, though in practice persons with mental health impairments have been kept in asylums and administered forced treatment under restraint. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The Global call for Mental Health Legislation
+<br>At the international human rights level, the need to protect the rights of persons with mental health impairments was seen as an important area of intervention for decades. In 1978, the general assembly had called upon the commission on human rights to urge the subcommission on prevention of discrimination and protection of minorities to formulate guidelines towards the protection of those detained on the grounds of mental impairments2. This effort took over 10 years, with the final “Principles for the Protection of Persons with Mental Illness and for the Improvement of Mental Health Care” being adopted in 19913. 
+<br>The principles speak of rights of persons with mental illness, however throughout the document it lays down deviations from these and other established human rights, “in accordance with domestic law”. The principles lay down regulations for involuntary treatment and deprivation of liberty, including procedural safeguards. The principles, however, extended only to persons who had been admitted in a mental health facility, and so the same did not touch upon their rights elsewhere. 
+<br>Principle 23 mandated that “States should implement the present Principles through appropriate legislative, judicial, administrative, educational and other measures, which they shall review periodically,” which was, in effect, the first call for mental health legislation. Towards fulfilment of this, the World Health Organization, in 2005, issued the WHO Resource Book on Mental Health, Human Rights and Legislation4, towards assisting states towards drafting their own mental health legislation where the same did not exist previously. 
+<br>The very next year brought about the adoption of the UN Convention on the Rights of Persons with Disabilities, which offered a complete change in rights based approaches towards persons with psychosocial disabilities. The following table enlists a few of these changes vis-a-vis the WHO Resource Book.
+<br>Analysing the WHO Resource Book post the CRPD</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+WHO Resource Book
+<br>UNCRPD
+<br>Chapter 2.5.2: Information regarding treatment may be withheld from the person with psychosocial disability on the grounds that this information may cause them to cause harm to self or others.
+<br>Article 25: States Parties shall protect the privacy of personal, health and rehabilitation information of persons with disabilities on an equal basis with others. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Chapter 2.6: legislation can codify the principle that family members and family organizations are important stakeholders in the mental health system, and may therefore be represented in all forums and agencies where strategic decisions regarding mental health services are made</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Article 4 (3): In the development and implementation of legislation and policies to implement the present Convention, and in other decision-making processes concerning issues relating to persons with disabilities, States Parties shall closely consult with and actively involve persons with disabilities, including children with disabilities, through their representative organizations. 
+<br>Chapter 2.7.3: Provides for procedures to determine capacity and competence, including by way of a ‘functional test’
+<br>Article 12 (and elaborated in General Comment No. 1): All persons with disabilities have legal capacity to make decisions and may require varying levels of support towards making their decisions. Focus should be on determining what support is required. 
+<br>Chapter 2.7.4: provides for the appointment of guardians to act on  behalf of the person with psychosocial disability and in the best interest of the person.
+<br>Article 12 (and elaborated in General Comment No. 1): All systems of substituted decision making must be dismantled. Priority should be given to the will and preference of the person as opposed to their best interests.
+<br>Chapter 2.8: Admissions to mental health facilities including of ‘non protesting’ patients and involuntary admissions
+<br>Article 25: State parties shall requie health professionals to provide care of the same quality to persons with disabilities as to others, including on the basis of free and informed consent </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Chapter 2.8.5: Involuntary treatment of persons with psychosocial disabilities
+<br>Article 15: No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The WHO has recently withdrawn this resource book on the grounds that it does not comply with present human rights standards as laid down in the CRPD5, and as elaborated in various general comments and concluding observations with respect to state reports. However, as can be seen in the case of India, which saw the passage of the Mental Healthcare Act, 2017, which appears to be strongly influenced by the resource book, the legacy of this document remains. Many governments are strongly considering the necessity of mental health legislation, often as a demand from the citizenry. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Status of the Asian region and mental health laws</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The Asian region has a diverse range of experiences when it comes to mental health legislation. There is a marked difference based on income, history of colonization, and form of government. This is a summary of the experiences in different countries as informed by the TCI-Asia partners, wherever present.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Country
+<br>Mental Health Law/Policy Status
+<br>Notes (TCI Member States only)6
+<br>Afghanistan
+<br>Mental Health Policy (2010)
+<br>Mental Health Law (1987)7</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Bangladesh
+<br>Lunacy Act, 1912 (still in force) 
+<br>Mental Health Policy - 20078 and 2014
+<br>In 2014 a draft Mental Health Act was proposed which is not in consonance with the CRPD.
+<br>The Disability rights and Protection Act 2011 is a progressive legislation and includes persons with psychosocial disabilities. 
+<br>Ministry of Social Justice and Women and Child Development are focus Ministries. Their understanding of psychosocial disability is not in line with CRPD.
+<br>German corporations completed two pilot projects focusing on persons with psychosocial disabilities and are working with Government to adopt these.
+<br>The Country has only one mental health hospital with 625 beds. The National Institute of Mental Health runs a 150 bed hospital in Dhaka. There are about 5000 beds in various inpatient units and residential facilities9.
+<br>Bhutan
+<br>No Mental Health Policy
+<br>No Mental Health Law10</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Cambodia
+<br>Mental Health Policy 2013
+<br>No Mental Health Law11</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+China
+<br>Mental Health Policy (2008)
+<br>Mental Health Law of the People’s Republic of China (2013) 12
+<br>The Mental Health law is not entirely in compliance with the CRPD and still allows for involuntary treatment (with consent of Guardian). Psychiatry is used for political control. There are 4000 closed door institutions in the country, and that is the mainstay of the mental health system. Even if some people may live in society, the society itself is one big institution. Health care information is recorded in the personal ID card. There is a dynamic control of people living in communities because of the surveillance system13.
+<br>Concluding Observations have been issued by the CRPD Committee which make many observations regarding laws against persons with psychosocial disabilities including involuntary committal and treatment14
+<br>India
+<br>Mental Healthcare Act 201715
+<br>Mental Health Policy 201416
+<br>Recently passed Mental Healthcare Act 2017 which echoes the WHO guidelines.
+<br>The ruling Government has an interest in persons with disabilities, however there is concern over discriminatory language being used to describe them like divyangjan (those with holy limbs).
+<br>A Cabinet Minister said that schizophrenics cannot work and there should not be reservation in employment for them. 
+<br>Allocations for institutions has actually increased while community mental health care budgets are stagnant.
+<br>Human Rights Watch highlighted instances of abusive treatment in institutional settings against women and girls with disabilities. 
+<br>Indonesia
+<br>Mental Health Policy (2001)
+<br>Mental Health Law (2014)17</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Japan
+<br>Law relating to Mental Health and Welfare 200618 
+<br>Law on judicial hospitalization and law 200219
+<br>In 2004, the Japanese Government made a 10 year commitment towards reducing rate of institutionalization20 (currently the rate of institutionalization is the highest in the world)21.
+<br>There is a Guardianship Act under which 190,000 persons including persons with psychosocial disabilities are governed. The massacre at Yamayuri-en22 by a person with a mental health diagnosis (who had been released from psychiatric care) of persons with disabilities has led to public demand for more stringent laws. The proposed amendments moved at the Diet make discharge after involuntary admission extremely difficult and also compromise the privacy of persons with psychosocial disabilities23. 
+<br>Laos
+<br>National Mental Health Policy (2007)
+<br>No Mental Health Law24</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Malaysia
+<br>Mental Health Policy (2013) 25
+<br>Mental Health Law (2001)26
+<br>Still Medical Model, far from Human Rights model
+<br>The user movement is trying to work cross disability.
+<br>There is a new Disability draft law based on CRPD in parliament, Yeni is part of the working group as chair of national organization.
+<br>Activists have done an analysis of all legal products from the perspective of persons with psychosocial disabilities – more than 30 local regulations on disability that do not talk about psychosocial disability. 
+<br>Supreme Court is presently considering the position of law that prevents persons with unsound mind from voting.
+<br>Myanmar
+<br>Lunacy Act, 1912
+<br>Mental Health Policy (1993)27</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Nepal
+<br>Mental Health Policy (2004)
+<br>No Mental Health Law28
+<br>Incapacity laws are not found or rendered obsolete, but guardianship continues to create controversy29 and rights violations.
+<br>A new Constitution has been promulgated.
+<br>The law provides for a ‘disability representative’ at National and regional levels, but persons with psychosocial disabilities will not qualify because of the incapacity law in the election law.
+<br>Disability Bill drafted and approved by Cabinet which does not talk about persons with psychosocial disability beyond free medication – Articles 12 and 19 not addressed at all.
+<br>MH legislation under the umbrella Health Act that is not CRPD Compliant and resembles lunacy acts of many countries.
+<br>More psychosocial disabilities on account of traumatic experience of natural disasters – especially women and children. 
+<br>Government, INGOs focused on communities and people but there is discrimination against persons with psychosocial disabilities within that. 
+<br>Pakistan
+<br>The Mental Health Ordinance, 200130
+<br>Mental Health Policy 2003
+<br>Rural areas have a larger percentage of persons with psychosocial disabilities compared to urban.
+<br>Persons with psychosocial disabilities are confined in houses and their situations are so severe that they are not allowed to go out. Those who can afford it take expensive medical treatment but for others there are no alternatives
+<br>For persons with psychosocial disabilities there are two Government schools and training centres which are not properly managed and very restrictive.
+<br>Philippines
+<br>Senate Bill No. 1345, or the Philippine Mental Health Bill, passed in May 201731 
+<br>Mental Health Policy, 200732
+<br>Philippines are comprised of 7000 islands but there is only one major mental health institution to take care of everyone.
+<br>Psychosocial Disability-Inclusive Philippines (PDIP) opposed the draft legislation (7 mental health bills in total) on several occasions. Ultimately, the recently passed legislation that provides for involuntary commitment and treatment, and withholding of medical records from the person, has been passed. The law is very close in design to the WHO Resource Book.
+<br>Little, if any, attention has been given to recognizing and protecting the physical and mental integrity of Filipinos with psychosocial disabilities. Institutional electroconvulsive therapy with forced drugging is practiced in the country and is completely unregulated. 
+<br>Republic of Korea
+<br>Mental Health Policy (2014)
+<br>Mental Health Act (2014)33
+<br>There is a lot of social stigma against persons with psychosocial disabilities and treated as victims. KAMI has developed a monitoring system developed for TV representation over 4 years 
+<br>A crucial problem is forced hospitalization and isolation from the community on account of this. Prevents access to livelihood.
+<br>Law on registration prevents persons with psychosocial disabilities from being employed in jobs that involve dangerous situations – including working in restaurants etc. 
+<br>Adult guardianship for persons with psychosocial disabilities was introduced in the revised Korean Civil Law from July 1st, 201334.
+<br>In 2016 the Constitution Court of Korea made a decision on the Mental Health Act Art. 24 relating to involuntary admissions. While the Court agreed with the need for involuntary admissions in several cases, the procedure was held to be violative of the constitution – the law allowed for involuntary hospitalization by the consent of the 2 family members (guardians) and one psychiatrist35.  
+<br>On 30 May 2017 the revised Mental Health Act was passed and involuntary admission is now permitted under law again.
+<br>The government is providing mental health sanatorium (average length of stay is more than 10 years) and social welfare facilities of 50 people for those coming out from the psychiatric wards. In the new law there is until no community services or support prepared for those persons with psychosocial disabilities.
+<br>The revised law provides that the government will get data of the hospitalized mental health patients for medical research, potentially violating the privacy of persons with psychosocial disabilities. 
+<br>Concluding Observations have been issued by the CRPD Committee which make many observations regarding laws against persons with psychosocial disabilities including high levels of institutionalization, lack of community alternatives, involuntary committal and treatment36
+<br>Republic of Singapore
+<br>Mental Health (Care and Treatment) Act 200837</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Sri Lanka
+<br>No Mental Health Law
+<br>Mental Health Policy (2005 - 2015)
+<br>It is estimated that 3.5% of the population has a mental health impairment. 
+<br>One major institution exists that used to be an asylum.
+<br>District Hospitals has one or two wards for MH care, OPD services
+<br>Community Mental Health Services were started in 2002. 
+<br>The Consumer Action Network was established following a 2011 meeting in with consumers, carers, national institute of mental health and mental health Unit of the Ministry.
+<br>Kandy mission helped in the revision of the mental health policy which is presently in force. 
+<br>In February 2016, the Government ratified the CRPD
+<br>The Butterfly Project: as the symbol of the mind, after a senior psychiatrist who said that the mind is like a butterfly which can be destroyed with the wrong touch. This advocacy programme goes up from the grassroot users to the President of the Country. 
+<br>The Consumer Action Network has membership in MH Advisory Council which includes consumer, WHO etc. 
+<br>CAN provides advocacy and support to district level organizations and finds work and self employment opportunities for members of the organization. 
+<br>Taiwan
+<br>Mental Health law (revised in 2007)
+<br>Law to protect persons with disabilities (1958) has now changed name to protecting rights of persons with disabilities, and towards providing support. 
+<br>Mental health law enacted in 1990, first revision in 2007
+<br>Population 23 million, estimated 1.1 million people have disabilities 
+<br>Though more than 2 million people seek mental health treatment, only 200,000 persons with mental illness and certified under the National insurance programme for persons with ‘severe illness’ to bear medical costs. 
+<br>It is estimated that 200,000 have serious mental health conditions and 120,000 people require long-term support. 
+<br>Ratified CRPD in 2014.
+<br>Not recognized as member of UN because of dispute with China
+<br>Thailand
+<br>Mental Health Policy (2012)
+<br>Mental Health Law (2008)38
+<br>Accessibility of treatment has not reached more than 50% of the population, and it is estimated that 1 in 6 persons in Thailand have some form of mental illness. 
+<br>The mental health law, which was originally only for involuntary treatments, is under revision. The Revision Committee tried to change focus to prevention, rights of persons within mental health rehabilitation and treatment centres. There is also a move to incorporate mental healthcare in primary health care but people prefer segregated systems.
+<br>Concluding Observations have been issued by the CRPD Committee which make many observations regarding laws against persons with psychosocial disabilities including involuntary committal and treatment39.
+<br>Vietnam
+<br>Mental Health Policy (1998)
+<br>No Mental Health Law40</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The CRPD Committee has issued concluding observations with respect to three countries in this region. A study of the observations and recommendations made are a good indicator of the issues in the region thanks to the diversity of the respondents – a large Country with diverse groups and a controlled political regime (China), a smaller Country with low income (Thailand), and an OECD Country (Republic of Korea).
+<br>Relevant Extracts from concluding observations on the rights of persons with psychosocial disabilities</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Country
+<br>Observations
+<br>China41
+<br>Article 12: Equal Recognition before the Law
+<br>The Committee urges the State party to adopt measures to repeal the laws, policies and practices which permit guardianship and trusteeship for adults and take legislative action to replace regimes of substituted decision-making by supported decision making, which respects the person’s autonomy, will and preferences, in the exercise of one’s legal capacity in accordance with article 12 of the Convention.. (and) prepare , legislate and implement a blueprint for a system of supported decision-making, which includes:
+<br>Recognition of all persons’ legal capacity and right to exercise it;
+<br>Accommodations and access to support where necessary to exercise legal capacity;
+<br>Regulations to ensure that support respects the person’s autonomy, will and preferences and establishment of feedback mechanisms to ensure that support is meeting the person’s needs;
+<br>Arrangements for the promotion and establishment of supported decision-making.
+<br>Article 14: Liberty and Security of the Person
+<br> “The Committee is concerned that many persons who indeed live with intellectual and psychosocial impairments and require a high level of support lack the adequate resources for their medical and social care and are thus permanently confined at home…  The Committee recommends the abolishment of the practice of involuntary civil commitment based on actual or perceived impairment… allocate more financial resources to persons with intellectual and psychosocial disabilities who require a high level of support, in order to ensure social support and medical treatment outside their own home when necessary.
+<br>Article 15: Freedom from torture and cruel, inhuman or degrading treatment 
+<br>“For those involuntarily committed persons with actual or perceived intellectual and psychosocial impairments, the Committee is concerned that the “correctional therapy” offered at psychiatric institutions represents inhuman and degrading treatment…
+<br>The Committee urges the State party to cease its policy of subjecting persons with actual or perceived impairments to such therapies and abstain from involuntarily committing them to institutions. Further it urges the State party to abolish laws that allow for medical experimentation on persons with disabilities without their free and informed consent.”
+<br>Article 19: Living independently and being included in the community
+<br>“The Committee is concerned about the high number of persons with disabilities living in institutions and about the fact that China maintains institutions with up to 2,000 residents. Such institutions are not in compliance with article 19 of the Convention… The Committee recommends taking immediate steps to phase out and eliminate institutional-based care for people with disabilities. Further, the Committee recommends that State party consult with organizations of persons with disabilities on developing support services for persons with disabilities to live independently in accordance with their own choice.”
+<br>Article 25: Health
+<br>“The Committee is concerned about the current involuntary commitment system in the State party. It takes note of the Draft Mental Health Act and the ordinances of six major cities in the State party on mental health which do not respect the individual will of persons with disabilities.
+<br>The Committee advises the State party to adopt measures to ensure that all health care and services provided to persons with disabilities, including all mental health care and services, is based on the free and informed consent of the individual concerned, and that laws permitting involuntary treatment and confinement, including upon the authorization of third party decision-makers such as family members or guardians, are repealed. It recommends that the State party develop a wide range of community-based services and supports that respond to needs expressed by persons with disabilities, and respect the person’s autonomy, choices, dignity and privacy, including peer support and other alternatives to the medical model of mental health.”
+<br>Republic of Korea42
+<br>Article 12: Equal Recognition before the Law
+<br>“The Committee recommends that the State party move from substitute decision-making to supported decision-making, which respects the person’s autonomy, will and preferences …including with respect to the individual’s right to give and withdraw informed consent for medical treatment, to have access to justice, to vote, to marry, to work and to choose his or her place of residence. The Committee further recommends that the State party provide training, in consultation and cooperation with persons with disabilities and their representative organizations, at the national, regional and local levels for all actors, including civil servants, judges and social workers, on the recognition of the legal capacity of persons with disabilities and on the mechanisms of supported decision-making.” 
+<br>Article 14: Liberty and Security of the Person
+<br>“The Committee is concerned that the existing legal provisions in the Mental Health Act, as well as the draft amendment to the Act, allow for deprivation of liberty on the basis of disability. It is also concerned about the high rate of institutionalization, including long-term institutionalization, of persons with psychosocial disabilities without their free and informed consent… The Committee recommends that the State party repeal the existing legal provisions allowing for the deprivation of liberty on the basis of disability, including a psychosocial or intellectual disability, and adopt measures to ensure that health-care services, including all mental health care services, are based on the free and informed consent of the person concerned. The Committee also recommends that until the law is amended, all cases of deprivation of liberty of persons with disabilities in hospitals and specialized institutions be reviewed and that the review include a possibility of appeal.” 
+<br>Article 15: Freedom from torture and cruel, inhuman or degrading treatment 
+<br>“The Committee is concerned that, in psychiatric hospitals, persons with psychosocial disabilities are subjected to acts considered cruel, inhuman or degrading treatment, including solitary confinement, constant beating, restraint and excessive drug treatment…As long as institutionalization continues, the Committee urges the State party to protect persons with disabilities in psychiatric hospitals from violence, abuse and ill-treatment of any kind through the establishment of effective external independent monitoring mechanisms that ensure the representation of organizations of persons with disabilities.” 
+<br>Article 19: Living independently and being included in the community
+<br>“The Committee is concerned about the lack of efficiency of the deinstitutionalization strategies and the lack of sufficient measures aimed at including persons with disabilities in the community, as reflected by the increase in both the number of institutions for persons with disabilities and the number of residents, and the lack of policies for inclusion in the community with all necessary support services, including personal assistance services…The Committee urges the State party to develop effective deinstitutionalization strategies based on the human rights model of disability and to significantly increase support services in the community, including personal assistance services.”
+<br>Thailand43
+<br>Article 12: Equal Recognition before the Law
+<br> “…(T)he Committee urges the State party to repeal the regimes of substituted decision-making enshrined in, among others, sections 28 and 1670 of the Civil Code, and replace them with supported decision-making regimes that uphold the autonomy, will and preferences of persons with disabilities.”
+<br>Article 14: Liberty and Security of the Person
+<br>“The Committee recommends that the State party repeal all legislation that authorizes institutionalization on the basis of impairment without the free and informed consent of the person, including cases where consent is substituted by a third party. It also recommends that the declaration of unfitness to stand trial be removed from the criminal justice system…”
+<br>Article 15: Freedom from torture and cruel, inhuman or degrading treatment 
+<br>“The Committee is concerned about reports of inhuman or degrading involuntary treatment of persons with disabilities, including the use of electroshock therapy, restraints, isolation and seclusion, on the basis of the perceived dangerousness to themselves or others on impairment… The Committee recommends that the State party take effective and appropriate measures, including those of a legislative nature, to prevent inhuman or degrading medical treatment on the basis of actual or perceived impairment.
+<br>Article 19: Living independently and being included in the community
+<br>“The Committee is concerned about the institutionalization of persons with disabilities, including girls and boys, in residential institutions, hospitals, half-way homes and rehabilitation centres, and the insufficiency of community-based support services to implement independent living…
+<br>(a) Adopt a concrete time frame for the deinstitutionalization of persons with disabilities; 
+<br>(b) Make available a range of supports in the community to ensure that persons with disabilities can exercise choice and control regarding where and with whom they live; 
+<br>(c) Continue and strengthen initiatives for independent living to ensure long-term sustainability.”</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Strategizing legal harmonization efforts for persons with psychosocial disabilities </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Persons with psychosocial disabilities have a clear window of opportunity with the CRPD to completely overhaul the legal regime that currently governs them. In this chapter, we will discuss what making the right real for persons with psychosocial disabilities means and where these interventions can and must be made.
+<br>Article 4 of the CRPD speaks of the State’s need to respect, protect and fulfil the obligations under the CRPD. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Source: IDA Presentation on How to analyse efforts made by states to implement CRPD? (2016)
+<br>Bridge Training Module – 1 </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+In the context of persons with psychosocial disabilities, this would mean:
+<br>a. The State must refrain from interfering with the enjoyment of the rights of persons with psychosocial disabilities
+<br>b. The State must prevent others (example: family members, caregivers, statutory bodies, private sector companies) from interfering with persons with psychosocial disabilities and their enjoyment of rights
+<br>c. The State must take additional measures – like enacting laws, providing services, and making budgetary allocations – to ensure that there is full realization of rights. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Clearly, respecting, protecting and fulfilling the various rights under the CRPD is not limited to only stand-alone mental health laws. Unfortunately, the reality of many activist experiences is that persons with psychosocial disability are considered solely as a ‘health’ issue, and not as a disability issue, let alone being treated as a part of human diversity. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The importance of Article 19 of the CRPD for persons with psychosocial disabilities 
+<br>“Other than being a human right, Article 19 is the overall purpose of realizing the CRPD: All persons with disabilities will live independently and be included in communities, without discrimination and on equal basis with others. Article 19 may be considered as the heart of the convention, though it is not a new or a higher human right.”44
+<br>Article 19 of the CRPD is a restatement of several established human rights. For the able bodied person, it was always assumed that the person was situated in the community, and that the community was one of the sites at which rights were at risk. Persons with disabilities, particularly persons with psychosocial disabilities have often been excluded from living in the community on the grounds that they are a risk to themselves and others. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The Convention has already rejected the rationale for exclusion of persons with psychosocial disabilities45. However, even when included, persons with psychosocial disabilities have not been allowed to do so on their own terms. 
+<br>While many persons with psychosocial disabilities are forced to live their lives in closed-door institutions, simply providing for deinstitutionalization or a bar on further institutionalizations would not fulfil the CRPD, it would merely refrain from obstructing a person’s right to liberty under Article 14 of the CRPD.  The fulfilment of the right to live independently and be included in the community is one that requires a strong focus on re-imagination of what legal harmonization would be like for persons with psychosocial disabilities, and in turn, what an inclusive community for persons with psychosocial disabilities would be like. The enactment of a legislation to reverse or repeal the present template of mental health legislation would still fall short on making the right real for persons with psychosocial disabilities. Instead, by keeping the fulfilment of Article 19 as a cornerstone, there requires to be considered a range of harmonization efforts for persons with psychosocial disabilities and the fulfilment of their rights.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Legal Harmonization across laws</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Legal harmonization efforts for persons with psychosocial disabilities largely fall into three groups:
+<br>1. Stand-alone mental health laws
+<br>2. Umbrella disability rights legislations
+<br>3. Laws not specific to persons with disabilities</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+All of these are important points for intervention, and in the next chapter we will also examine the best approaches depending on the current legal regime with regard to mental health law. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Towards a CRPD Compliant Mental Health law</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Advocacy groups of persons with psychosocial disabilities, including TCI Asia, have debated the necessity of a separate mental health law for persons with psychosocial disabilities. It is without doubt that most of the content of mental health laws focus on areas of deprivation of liberty and rights that are guaranteed to all other persons. Mental health laws are discriminatory as they codify discrimination and the discriminatory treatment of persons with psychosocial disabilities. A majority of activists have agreed that in theory, a separate mental health law is unnecessary46, and that separate mental health laws will always contravene the CRPD47. However, in more recent times, the legislative and policy concerns of persons with disabilities can also be dealt with in legislation that is focused around dismantling existing systems – both in law and in infrastructure – governing persons with psychosocial disabilities48.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+From an advocacy perspective, the reality is that a majority of countries have Mental Health Laws and the current global trend appears to be towards enacting mental health laws. Even without a mental health law, persons with psychosocial disabilities have been subjected to forced treatment, hospitalization and deprivation of property and rights under various civil and criminal laws and regulations. In most Asian countries, the majority of persons with psychosocial disabilities live in the community, and in most countries, community healthcare supports are few and far between and lack rights based approaches. Persons with psychosocial disabilities  have been subjected to degrading treatment in the community, including being tied up and chained for lack of care options.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+It is important to note that even the UN High Commissioner for Human Rights, in its recent report ‘Mental Health and Human Rights’49, has not made any statement calling for an end to stand alone mental health laws, though it has pointed out the failure of mental health legislation to respect the rights of persons who are governed under it. The report has, instead, detailed what CRPD compliant mental health law should look like. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The report mandates that mental health laws, where they exist, should:
+<br>Be in compliance with articles 5, 12, 13, 14, 15, 16, 17 and 25 of the CRPD
+<br>Not create separate regulation on issues that can be mainstreamed into general legislation e.g. legal capacity, liberty and security.
+<br>Prohibit the arbitrary deprivation of liberty on the basis of impairment, including on the grounds of the need to provide care to the person or on account of their being a danger to themselves or others 
+<br>Ensure the individual’s right to free and informed consent in all cases for all treatment and decisions related to health care, and also support diverse needs of accessibility of information, communication, and support mechanisms. 
+<br>Include the practice of supported decision-making, advance directives and the principle of “the best interpretation of the will and preferences” of the person concerned as a last resort within the legal framework.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Going from a regime of strict regulation of all aspects of a person’s existence to no legislation at all is a highly unprecedented action for most governments. 
+<br>There are many instances of ‘failed experiments’ with regard to deinstitutionalization in the west that are cited as cautionary tales against such moves, even though it is well established that such efforts were not well thought out as they did not provide deinstitutionalized persons with adequate community support and services50.  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There are real challenges when considering the repeal of mental health laws in the Asian region, including the following:
+<br>Communities may not be inclusive in terms of supports and attitudes at present.
+<br>There may be people in institutions who need comprehensive support to live in the community.
+<br>There may be sunk costs in segregated mental health systems and trained professionals employed within them that need a new mandate.
+<br>There may be other issues like natural disasters, political unrest, poverty which pose additional risk to persons with psychosocial disabilities.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+What can a CRPD Compliant Mental Health Law achieve?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Umbrella disability rights legislations</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Towards compliance with the CRPD, many State Parties are opting to enact umbrella disability rights legislations. However, such an approach may fall short of considering all the vulnerabilities faced by persons with actual or perceived mental health disorders. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+To ensure that the needs are met fully, the psychosocial disability movement must work closely with the cross disability movement to ensure full inclusion. Most disability rights legislations frame legal provisions around each article of the CRPD. Specific consideration must be made to the ways in which persons with psychosocial disability are excluded.
+<br>Examples of what a disability rights legislation should consider:</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Protecting children with vulnerability to psychosocial impairments
+<br>Respect
+<br>Non discrimination of children with psychosocial disabilities from education, adoption, participation in legal proceedings etc.
+<br>Protect
+<br>Addressing violence against children in families, homes
+<br>Fulfil
+<br>Recognizing the evolving capacity of children 
+<br> Budgetary allocations towards children with disabilities</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Raising awareness and combating stigma
+<br>Respect
+<br>Bar on States promoting any outdated terminology and stigma against persons with psychosocial disabilities
+<br>Protect
+<br>Preventing verbal abuse and misconceptions being promoted by the media, citizens, politicians
+<br>Fulfil
+<br>Awareness campaigns on the rights of persons with psychosocial disabilities and breaking myths and stereotypes
+<br>Training of Government officials, Professionals on the CRPD</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Recognition as persons before the law
+<br>Respect
+<br>Amend all laws which prevent persons with psychosocial disabilities from being recognized as persons before the law, requiring guardianship etc.
+<br>Protect
+<br>Against private entities from preventing the exercise of legal capacity
+<br>Fulfil
+<br>Recognize supported decision making
+<br> Create mechanisms for services to accept supported decision making and immediate reasonable accommodation</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Access to Justice
+<br>Respect
+<br>Amend all laws which prevent persons with psychosocial disabilities from being approaching Courts on their own and being witnesses etc.
+<br>Protect
+<br>Against family members, doctors etc. restraining persons with psychosocial disabilities from accessing justice.
+<br>Fulfil
+<br>All accommodation within the justice system to perform as complainants, witnesses, accused.
+<br>Information to be accessible for persons with psychosocial disabilities.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Prevention of Inhuman Treatment, Promotion of Healing
+<br>Respect
+<br>Ban all mental health treatment which amounts to torture or cruel, inhuman or degrading treatment or punishment, and that which is not healing
+<br>Protect
+<br>Against family members, private practitioners who may expose the person to such treatments.
+<br>Fulfil
+<br>Promotion of informed consent in accessible formats to all therapeutic options
+<br>Recognize alternatives to medication and invasive treatments and allocating budgets for innovations and research </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Living Independently and within the Community
+<br>Respect
+<br>Amend all laws which provide for institutionalization of persons with disabilities 
+<br>Protect
+<br>Against being denied the exercise of choice and control over living arrangements by private individuals
+<br>Fulfil
+<br>Provide for programmes which provide residential options for persons with psychosocial disabilities considering their specific needs including personal assistance
+<br>Reasonable accommodation in existing systems to access services available to the general population without discrimination</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Many disability rights legislations require certification as a person with a disability in order to access benefits. This is a common process, as the goal is to ensure that support reaches those who need it the most. However, the methods adopted for certification are deeply enshrined in the medical model and by themselves can be highly traumatic51. Disability determination or certification schemes, where they exist, may not recognize them as persons with disabilities, which can lead to their exclusion from disability-specific social protection schemes52. In many laws, a person is required to be certified as a person with disability even to register complaints of discrimination before the relevant authority53. In some cases, persons with mental health impairments may not want to seek this certification. Disability rights legislations may also not extend protections to those with ‘actual or perceived’ mental health impairments, which make rights based interventions difficult if there is no ‘medical history’ of a person with a disability. The disability rights movement must consider the reality of persons with psychosocial disabilities accessing benefits under the law. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Lastly, many services extended to enable independent living are not extended to persons with psychosocial disabilities. One example is personal assistance, which is an effective means to ensure the right to live independently and be included in the community in ways that respect the inherent dignity, individual autonomy and independence of persons with disabilities54. Personal assistance has proved particularly beneficial to persons with psychosocial disabilities - including peer support and advocacy, crisis respite and planning, non-medical support to deal with altered perceptions, assistance to meet practical needs of everyday life, advocates for decision making support and living support networks to help make connections in the community55. Responsive disability rights legislation will ensure that there is no discrimination in the availability and training of personal assistants.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+What can umbrella disability rights legislation achieve for persons with psychosocial disabilities?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Inclusion in laws not specific to persons with disabilities </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The ultimate outcome of advocacy is to make mental health law, and for that matter even disability specific law redundant, by incorporating all necessary legal requirements under laws that govern their general applicability. For this, a common strategy across States should be to look at how the needs of persons with psychosocial disability can be incorporated across sectors and to advocate for amendments to existing law or introducing policy for the same. This also requires sufficient budget to ensure that trained manpower or facilities exist to address the specific needs of persons with disabilities in accessing programmes, schemes and services available to the general population. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+An overall exercise would be to engage with all such legislation and identify where gaps lie. Though this is useful for the disability sector as a whole, in many laws in former colonial states, there are exclusions on the ground of ‘unsoundness of mind’ and other such terminology56. 
+<br>Making the right real through cross sectoral approaches</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Addressing concerns relating to…
+<br>…in law and policy relating to
+<br>Children with actual or perceived psychosocial impairments
+<br>Implementation of the Convention on the Rights of the Child
+<br>Right to Education legislation
+<br>Stigma against persons with actual or perceived psychosocial impairments
+<br>Press and media regulation
+<br>Health campaigns
+<br>Training institutes for media personnel
+<br>Equal recognition before the law
+<br>Civil laws relating to registration of legal contracts
+<br>Access to Justice with required accommodations
+<br>Civil and Criminal procedural law
+<br>Treatment and healing with informed consent and respect to body and mental integrity
+<br>Health and Consumer rights
+<br>Property rights
+<br>Inheritance and contract
+<br>Participation of persons with psychosocial disabilities in monitoring57
+<br>Laws relating to monitoring of services and bodies constituted under the Paris principles</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The opportunity of the sustainable development goals</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Due to the intense advocacy efforts by several international disability rights organizations, disability has featured in the goals, unlike the Millennium Development Goals before this. Persons with disabilities have 7 references in SDGs:  education (2), employment, reducing inequalities, inclusive cities (2), and disaggregation of data by disability. In all, there are 11 references in in Agenda 2030 and 9 in global indicators58. In addition, persons with disabilities are ‘vulnerable persons’ under the Goals, which is referenced 18 times throughout the Agenda. 
+<br>Examples of Sustainable Development Goals that are relevant for persons with psychosocial disabilities:</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SDG
+<br>Targets</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+1.3 Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+1.4 By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+3.4 By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+3.8 Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+10.2 By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+10.3 Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+11.1 By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+11.7 By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+16.3 Promote the rule of law at the national and international levels and ensure equal access to justice for all </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+16.b Promote and enforce non-discriminatory laws and policies for sustainable development</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Governments will develop their own national indicators to assist in monitoring progress made on the goals and targets. This presents an opportunity as well as caution, though persons with disabilities have found mention in the document, effective indicators, monitoring and data collection are necessary for the realization of the same. Without advocacy at the domestic level, the targets may only remain on paper, or not be sufficiently monitored. 
+<br>What can legal harmonization across sectors achieve for persons with psychosocial disabilities?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Strategies for Legal Harmonization in the Asia region</td>
+<td class='tra'  lang='zh-CN'>
+亚洲地区法律一体化的策略</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Countries in the Asia region which have ratified the CRPD can be divided into four groups with respect to stand alone mental health laws:
+<br>1. Countries that have no stand-alone mental health laws (though there may be legal provisions impacting the enjoyment of rights by persons with psychosocial disabilities elsewhere).
+<br>2. Countries that have stand-alone mental health laws that are pre-CRPD (including lunacy laws).
+<br>3. Countries that have enacted legislation post their ratification of the CRPD (though not necessarily CRPD compliant legislation)
+<br>4. Countries that are, in light of the CRPD and other developments, looking to enact or amend mental health laws.</td>
+<td class='tra'  lang='zh-CN'>
+我们将亚洲地区的签署了CRPD的国家，依据是否设立单列的精神卫生法：
+<br>1. 没有单列的精神卫生法律的国家（虽然可能有一些对社心障碍者的权益有影响的法律／规定）；
+<br>2. 在CRPD颁布之前已有精神卫生法的国家（包括“疯人法”）；
+<br>3. 在签署CRPD之后才颁布精神卫生法律的国家（并不必然是CRPD合规的立法）；
+<br>4. 准备依照CRPD进行实施和修订精神卫生法律的国家</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Current status of stand-alone mental health laws in the Asia region</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Specific strategies for countries in the Asian region
+<br>Many of the strategies described below can be used among different categories of Countries, depending entirely on the legislative intent of the country concerned and the window of opportunity that is presented. One strategy i.e. advocacy towards a CRPD Compliant mental health legislation, has been discussed above. </td>
+<td class='tra'  lang='zh-CN'>
+一些亚洲国家的具体策略
+<br>下面按照上面的国家分类，描述了很多策略，这些完全取决于该国的立法意向以及其呈现的机遇窗口期。 一个策略（上面已经讨论了）就是倡导一个CRPD合规的精神卫生立法。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+It is to be emphasized that a CRPD Compliant Mental Health Law is not the only solution available to ensure the rights of persons with psychosocial disability, however, in the context where a mental health law is deemed to be a necessity by a state government, it is an important advocacy tool to provide for an alternative legislation, which repurposes existing allocations, infrastructure and manpower (both administrative and technical) as a starting point towards CRPD compliance.</td>
+<td class='tra'  lang='zh-CN'>
+这里也要强调的是，一部CRPD合规的精神卫生法不是唯一的可确保社心障碍者权利的解决方案。 然而，在那些注定要做精神卫生立法的政府／国家的情境里，这仍是一个重要的倡导工具，提供另一种立法（方案），把现有资源（包括基础设施和人力资源等）重定向了，往CRPD合规性上发展。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+In countries where mental health laws already exist, this is a viable alternative. However, countries that are free from the administrative ties of such legislation have more freedom to innovate and do not require undergoing the process of enacting a separate mental health law.</td>
+<td class='tra'  lang='zh-CN'>
+对于已经实施精神卫生法的国家，这也是个可行的方案。但是，那些在这种立法上没有太多行政关联的国家可以有更多的自由来做这种创新，且不不必走那种单设精神卫生立法的程序。</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Some strategies, like ensuring the inclusion of persons with psychosocial disabilities in the collation of data and framing of indicators for the Sustainable Development Goals, should be used in all states. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Countries which have no stand-alone mental health law: 
+<br>These countries may have policies or other practices that still prevent persons with psychosocial disabilities from realizing their rights under Article 19. These countries may already have or be in the process of drafting legislation on persons with disabilities.
+<br>Advocacy Strategies
+<br>Begin advocacy for an overall health law, which covers situations of crisis and care across health conditions and their management within the community with rights based approaches, overall health laws must be holistic and include rights of access to alternate means of therapy.
+<br>Begin or align with advocacy towards a comprehensive law on non-discrimination and incorporating the definition of discrimination on the basis with disability from the CRPD.
+<br>Analyse existing services available for vulnerable individuals and incorporate practices that include persons with psychosocial disability in their design.
+<br>Relook at current personnel who are mandated to engage with persons with psychosocial disabilities in situations of accessing services, crisis management etc. and ensure their training with a CRPD perspective.</td>
+<td class='tra'  lang='zh-CN'>
+没有单设精神卫生法律的国家
+<br>- 这些国家可能仍有其它的政策和措施来阻止社心障碍者的基于第19条权利的实现。这些国家可能已经或正在起草关于残障人士的立法的程序中。
+<br>- **倡导策略**
+<br>- 开始向着一个总括性的卫生法倡导，涵盖了在不同健康状况下的危机和照顾的情形，以及社区中权利为本的方法的管理。总括性卫生法律必须是整体性的并且包括了进入另类治疗的权利；
+<br>- 向着一部关于**非歧视**的全面的法律倡导，其中对残障的定义应是基于 CRPD对残障的定义；
+<br>- 分析现有的对弱势个体的服务，并囊括那些在设计上包容了社心障碍者的实践；
+<br>- 重新审视那些在社心障碍者可及的服务、危机管理等场景中为他们工作的人员，并确保他们所接受的培训有CRPD视角。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Countries which have outdated (pre CRPD) stand-alone mental health laws in place: These range from Colonial Lunacy laws from the early 1900s to laws that have been enacted more recently. They resemble the template of providing for involuntary commitments and treatment, and depriving persons of their legal capacity. 
+<br>Advocacy Strategies
+<br>Start collecting data on the proliferation of MH Law Orders – case studies of abuse, rates of institutionalization etc.
+<br>Join ongoing efforts towards a Health Law, or amendment of Health Laws, to ensure CRPD Compliance.
+<br>Engage with disability law and policy formulation to ensure that Article 19 is fulfilled with respect to persons with psychosocial disabilities.
+<br>Make a case for reform of the law, include persons with psychosocial disabilities on the reform panels: “nothing about us, without us”, towards a CRPD Compliant Mental Health law.
+<br>Highlight the law in the parallel report procedure being undertaken under the CRPD to create a window of opportunity for repeal and reconsideration.</td>
+<td class='tra'  lang='zh-CN'>
+有单列的过时的（前CRPD）精神卫生法律的国家
+<br>- **倡导策略**
+<br>- 开始收集关于精神卫生法律命令的数据——滥用的个案研究、机构化率等；
+<br>- 加入已经在进行的（总体）卫生法倡导的队伍，或修订卫生法，以确保它合规于CRPD；
+<br>- 关注残障法和相关政策的制定，确保满足第19条；
+<br>- 为法律改革而搞个案子，把社心障碍者囊括进改革的论坛：“没有我们的参与就不要做关于我们的决策”，导向到 CRPD合规的精神卫生法；
+<br>- 在 CRPD影子报告中突出（高亮）法律的方面，创造撤销和重审（该法律）的机会。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Countries that have recently passed stand-alone mental health legislation after ratification of the CRPD: statements often accompany these that the new Law is compliant with the CRPD and international standards. 
+<br>Advocacy Strategies
+<br>Begin monitoring of the legislation to collect data on the overall impact on the lives of persons with psychosocial disabilities, instances of discrimination etc. 
+<br>Advocate for the time bound repeal of the legislation 
+<br>Use tools like the WHO Quality Rights Kit to evaluate current services under the legislation to make a case for repeal and replacement with a CRPD Compliant mental health law.
+<br>Highlight the law in the parallel report procedure being undertaken under the CRPD to create a window of opportunity for repeal and reconsideration.
+<br>Advocate for a more dynamic mental health policy which sees the progressive realization of the rights under Article 19 in a time bound manner.
+<br>Consider strategic litigation using the State obligations under the CRPD if the option is feasible in the context of the State.</td>
+<td class='tra'  lang='zh-CN'>
+最近通过了单列的精神卫生法（自签署 CRPD后）
+<br>- 通常会声明这部新法遵从 CRPD和其它国际标准。
+<br>- **倡导策略**
+<br>- 开始监察立法，收集受到该法影响的社心障碍者所有生活方面、受歧视方面的数据；
+<br>- 倡导 撤销该法的时间点；
+<br>- 使用如 WHO质量工具包 来评估当前的（社会）服务，搞个案子来倡导该法的撤销并由一个 CRPD合规的精神卫生法来取代它；
+<br>- 在CRPD影子报告中突出（高亮）法律的方面，创造撤销和重审（该法律）的机会；
+<br>- 倡导一个更动态的精神卫生政策，该政策应在一定时间内体现出对第19条规定的权利的实现；
+<br>- 如果该国情境可行的话，考虑利用 CRPD规定的国家的义务 进行策略性诉讼.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Countries that have draft stand-alone mental health legislation or are considering amendments to existing mental health law: These legislations may also be looking towards examples in the Asian region and the WHO resource book (since withdrawn) to bring them in line with the CRPD. 
+<br>Advocacy Strategies
+<br>Expand the ongoing effort on amendment to make a case for overall inclusion of persons with psychosocial disabilities in the laws across sectors through a Law Commission, Review etc. 
+<br>Engage with existing or upcoming disability rights laws in the Country for the inclusion of persons with psychosocial disabilities
+<br>As an alternative to a Mental Health Law, propose an overall health law, which covers situations of crisis and care across health conditions, to be administered in the community with principles of dignity and informed consent. With the combined effect of an amended disability and health legislation, a stand-alone mental health law may be redundant.
+<br>Collect data on the cost of exclusion generated by current practices in relation to persons with psychosocial disabilities to argue for legal provisions to ensure adequate expenditure towards full participation of persons with psychosocial disabilities.</td>
+<td class='tra'  lang='zh-CN'>
+那些已经开始单列的精神卫生立法 或 正考虑修订现有精神卫生法律
+<br>- 这些立法可能正在期待来自亚洲地区的先例，以及 WHO资源书籍（已经不再出版）来带领她们领略 CRPD。
+<br>- **倡导策略**
+<br>- 扩大当下修改法律（草案）的努力，通过跨部门的（比如）法律委员会、审查小组等，为社心障碍者的全面融合 搞个案子。
+<br>- 持续关注现有的或即将到来的残障法律，争取把社心障碍者包括进去；
+<br>- 提议进行总括性的卫生法立法：涵盖健康情境中的危机和照顾情形，以及以尊严和知情同意为原则的社区管理。经过修订的残障和健康立法带来的叠加影响，单列的精神卫生法应会被架空。
+<br>- 收集数据：当前的服务中因排斥社心障碍者所产生的支出，以争取设立相关法律条款以确保社心障碍者全面参与社会事务的足够支出。</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Conclusion</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The Asia region is currently poised at a crucial point in terms of the negotiation of laws around persons with psychosocial disability. The CRPD Committee will evaluate many of the member countries of TCI Asia in the next 5 years. With the withdrawal of the WHO Resource Book, there is a knowledge gap for activists and governments on the way forward. It is hoped that the forthcoming concluding observations and General Comment on Article 19 will provide some guidance, ultimately it is up to States to develop their own solutions. The next few years will also be crucial in States determining their own indicators regarding the sustainable development goals. The result of inclusive indicators for the next 12 years will necessitate the framing of law and policy to realize those goals, and this again presents a window of opportunity for persons with psychosocial disability to make themselves heard.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+It is hard to imagine the continuance of exclusionary laws and practices ever leading to the fulfillment of Agenda 2030 with respect to persons with psychosocial disabilities. A CRPD compliant solution developed in any State may become a new template, and it is hoped that this time, the authorship of this document will be in the hands of persons with psychosocial disabilities themselves, broken free from the Colonial hangover, and setting the terms of their inclusion. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

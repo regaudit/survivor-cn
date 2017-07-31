@@ -15,6 +15,8 @@ l10n 就是 localisation 的缩写:-)
 
 - [TCI-asia: 亚洲地区精神卫生法律一体化策略的报告]({{ site.baseurl }}/CRPD-l10n/Legal-Harmonization-Report-Draft.html)
 
+- [CRPD Manual 手册—— WNUSP 出品(伊万译）]({{ site.baseurl }}/CRPD-l10n/WNUSP_CRPD_Manual-zh_CN-Yifan.html)
+
 //{% for page in site.html_files %}
 
 //   + [{{ page.title }}]({{ site.baseurl }}{{ page.url }})

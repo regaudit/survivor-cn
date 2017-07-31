@@ -1,0 +1,2735 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CRPD Manual by WNUSP</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <style>
+
+
+/*
+Based on Minimal CSS (minimalcss.com) under the MIT license.
+*/
+
+/* Reset */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Layout */
+body { background-color: #fff; color: #333;	font: 14px/20px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+header { width: 100%; margin: 0 auto; position: relative; padding: 20px 0; margin-bottom: 20px; }
+
+nav ul { margin: 0; }
+nav ul li { display: inline; margin-right: 20px; font-size: 16px; line-height: 28px; color: #333; }
+nav ul li a { color: #333; }
+
+.container { position: relative; max-width: 90%; margin: 0 auto; }
+
+footer { border-top:1px solid #ccc; font-size:11px; line-height:26px; color:#999; }
+footer a { color:#999999; }
+footer a:hover { color:#105CB6; }
+footer ul li { display:inline; list-style:none; padding-left:20px; }
+
+/* Typography */
+a { color: #105CB6; text-decoration: none; }
+a:hover, a:focus { color: #105CB6; text-decoration: underline; }
+a:active { color: #105CB6; }
+
+h1 { font-size: 24px; line-height: 20px; margin: 10px 0; }
+h2 { font-size: 20px; line-height: 20px; margin: 10px 0; }
+h3 { font-size: 16px; line-height: 20px; margin: 10px 0; }
+h4 { font-size: 14px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 12px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 10px; line-height: 20px; margin: 10px 0; }
+h1,h2,h3,h4,h5,h6 { color: #333; }
+
+p { margin-bottom: 10px; }
+
+.float-left     { float: left; }
+.float-right    { float: right; }
+img.float-left  { float: left; margin: 0 20px 20px 0; }
+img.float-right { float: right; margin: 0 0 20px 20px; }
+img.center      { margin: 0 auto; display: block; }
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Misc */
+hr { background-color: #ccc; border: 0px; color: #ccc; height: 1px; margin: 8px 0 20px 0; }
+pre, code { background:#E0ECF6; display:block; margin-bottom: 20px; padding:10px; }
+
+blockquote { margin: 10px 10px 20px; padding: 9px; background-color: #f8f8f8; color: #666; border-left: 5px solid #ddd; font: 14px/20px Georgia, Times, serif; quotes: "\201C" "\201D"; }
+blockquote p { margin: 0; }
+blockquote:before { content: open-quote; font-weight: bold; }
+blockquote:after  { content: close-quote; font-weight: bold; }
+
+/* List */
+ul { list-style-position:inside; }
+ol { list-style-position:inside; }
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th { font-weight: bold; }
+tfoot { font-style: italic; }
+
+/* Metadata part */
+
+.metadata {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+table.metadata td {
+  padding-right: 20px;
+}
+
+.stats {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.graph {
+  width: 100%;
+}
+.graph div { float: left; }
+.graph div:first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.graph div:last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.percent-done    { background-color: rgb(90, 228, 140); height: 10px; }
+.percent-fuzzy   { background-color: rgb(255, 167, 52); height: 10px; }
+.percent-untrans { background-color: #F1F1F1; height: 10px; }
+.legend {
+  font-size: smaller;
+  color: #aaa;
+  padding-top: 12px;
+  text-align: center;
+}
+
+/* Translations */
+table.translations {
+  width: 100%;
+  table-layout: fixed;
+}
+table.translations th, table.translations td {
+  padding: 5px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #E1E1E1;
+}
+table.translations th {
+  text-align: left;
+}
+table.translations th:first-child, table.translations td:first-child { padding-left: 0; }
+table.translations th:last-child, table.translations td:last-child { padding-right: 0; }
+
+.with-comments td {
+  border-bottom: none !important;
+}
+tr.comments div {
+  float: right;
+  max-width: 75%;
+  font-size: smaller;
+  color: #aaa;
+}
+tr.comments div p:last-child { margin-bottom: 0; }
+
+.fuzzy .tra {
+  color: rgb(218, 123, 0);
+}
+
+.msgctxt {
+  color: rgb(70, 109, 137);
+  font-size: smaller;
+  background-color: rgb(217, 232, 242);
+  padding: 1px 2px;
+  margin-right: 4px;
+}
+
+
+  </style>
+</head>
+<body>
+<div class='container'>
+<table class='metadata'>
+<tr><td>Project:</td><td>CRPD Manual by WNUSP</td></tr>
+<tr><td>Language:</td><td>Chinese (China)</td></tr>
+</table>
+<div class='stats'>
+  <div class='graph'>
+    <div class='percent-done' style='width: 57%'>&nbsp;</div>
+    <div class='percent-untrans' style='width: 43%'>&nbsp;</div>
+  </div>
+  <div class='legend'>Translated: 228 of 400 (57 %)  •  Remaining: 172  </div>
+</div>
+<table class='translations'>
+  <thead>
+    <tr>
+      <th>Source text — English</th>
+      <th>Translation — Chinese (China)</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+﻿</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+IMPLEMENTATION MANUAL </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+for the </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+UNITED NATIONS 
+<br>CONVENTION 
+<br>ON THE 
+<br>RIGHTS OF PERSONS 
+<br>WITH DISABILITIES</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+WORLD NETWORK OF USERS AND
+<br>SURVIVORS OF PSYCHIATRY</td>
+<td class='tra'  lang='zh-CN'>
+联合国《残疾人权利公约》执行手册</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+FEBRUARY 2008
+<br>WORLD NETWORK OF USERS AND
+<br>SURVIVORS OF PSYCHIATRY</td>
+<td class='tra'  lang='zh-CN'>
+2008年2月世界精神病学使用者和幸存者网络</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:41</span>IMPLEMENTATION MANUAL for the 
+<br>UNITED NATIONS CONVENTION ON THE 
+<br>RIGHTS OF PERSONS WITH DISABILITIES</td>
+<td class='tra'  lang='zh-CN'>
+联合国《残疾人权利公约》执行手册</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+TABLE  OF CONTENTS</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+INTRODUCTION   ---------------------------------------------------	page 3</td>
+<td class='tra'  lang='zh-CN'>
+介绍------------------------------------------------------------------------------3</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+OUR PARTICIPATION IN THE DRAFTING AND 
+<br>NEGOTIATION OF THE CONVENTION   ----------------------	page 4</td>
+<td class='tra'  lang='zh-CN'>
+我们参与公约的起草和协商---------------------------------------------</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+HOW TO USE THIS MANUAL  -----------------------------------	page 6</td>
+<td class='tra'  lang='zh-CN'>
+如何使用这本手册------------------------------------------------------------</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+GUIDE TO THE TEXT  ----------------------------------------------	page 7</td>
+<td class='tra'  lang='zh-CN'>
+文章导读------------------------------------------------------------------------7</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1.  HIGHLIGHTS OF THE CONVENTION: Q and A  -------	page 7</td>
+<td class='tra'  lang='zh-CN'>
+1、公约最重要部分：问与答--------------------------------------------</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2.  GUIDE TO TERMINOLOGY, DEFINITIONS 
+<br>AND DESCRIPTIONS   ----------------------------------------	page 9</td>
+<td class='tra'  lang='zh-CN'>
+2、专门术语、定义和描述的导读--------------------------------------</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3.  THE PRINCIPLES OF THE CONVENTION  --------------	page 10</td>
+<td class='tra'  lang='zh-CN'>
+3、公约的原则</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4.  SUMMARY OF THE PROVISIONS 
+<br>IN THE CONVENTION AND 
+<br>GUIDE TO IMPLEMENTATION ----------------------------	page 12</td>
+<td class='tra'  lang='zh-CN'>
+4. 公约条款的摘要与执行导读-------------------------------------------12</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+HOW CAN WE ACCOMPLISH 
+<br>WHAT NEEDS TO BE DONE?  ------------------------------------	page 29</td>
+<td class='tra'  lang='zh-CN'>
+我们如何实现需要做的事情？---------------------------------------------29</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1.  POSITIVE MEASURES RELATING TO 
+<br>KEY ARTICLES OF THE CONVENTION -----------------	page 29</td>
+<td class='tra'  lang='zh-CN'>
+1、与公约主要条款相关的积极措施-----------------------------------29</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2.  DEVELOP ORGANIZATIONS AND SUPPORT FOR 
+<br>USERS AND SURVIVORS TO OPPOSE 
+<br>COERCIVE PSYCHIATRY------------------------------------	page 42</td>
+<td class='tra'  lang='zh-CN'>
+2、为使用者和幸存者发展组织与支持来反对强制性精神病医学---42</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3.  DEVELOP AND MAINTAIN A NETWORK 
+<br>WITH OTHER DISABILITY RIGHTS ACTIVISTS ------	page 42</td>
+<td class='tra'  lang='zh-CN'>
+3、发展与维护与其他残障权利积极分子网络-----------------------42</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4.  DEVELOP GOVERNMENT SUPPORT 
+<br>FOR THE CONVENTION  ------------------------------------	page 42</td>
+<td class='tra'  lang='zh-CN'>
+ 4、为公约发展政府支持--------------------------------------------------42</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+5.  EDUCATE OURSELVES ABOUT HUMAN RIGHTS
+<br>[TO BE ADDED] ------------------------------------------------ 	page 42</td>
+<td class='tra'  lang='zh-CN'>
+5、教育我们自己关于人权的事------------------------------------------42</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+6.  DEVELOP RELATIONSHIPS WITH THE MEDIA
+<br>[TO BE ADDED] ------------------------------------------------	page 42</td>
+<td class='tra'  lang='zh-CN'>
+6、与媒体发展关系（待加）--------------------------------------------42</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+MONITORING ---------------------------------------------------------	page 43</td>
+<td class='tra'  lang='zh-CN'>
+监督------------------------------------------------------------------------------43</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+APPENDICES  ---------------------------------------------------------	page 47</td>
+<td class='tra'  lang='zh-CN'>
+附录----------------------------------------------------------------------------47WORLD NETWORK OF USERS AND
+<br>SURVIVORS OF PSYCHIATRY</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:99</span>IMPLEMENTATION MANUAL for the 
+<br>UNITED NATIONS CONVENTION ON THE 
+<br>RIGHTS OF PERSONS WITH DISABILITIES</td>
+<td class='tra'  lang='zh-CN'>
+联合国《残疾人权利公约》执行手册</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+The World Network of Users and Survivors of Psychiatry is proud to proclaim the new United Nations Convention on the Rights of Persons with Disabilities (CRPD) as a major victory for users and survivors of psychiatry all around the world.  </td>
+<td class='tra'  lang='zh-CN'>
+世界精神病学使用者和幸存者网络非常骄傲的宣告：新的联合国的《残疾</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Our biggest victory – a paradigm shift away from a model based on paternalism to one based on respect for our human rights – is in the text of Article 12 on legal capacity.  States have to recognize that persons with disabilities enjoy legal capacity on an equal basis with others.  What does this mean?  We understand legal capacity in the sense of capacity to act, which is both the right to make decisions, and a legal status equal with other adults in one's society.  Deciding whether to accept medical treatment or go into a hospital is an exercise of legal capacity.  If someone else, whether a doctor, court, or imposed guardian, is authorized by law to substitute their will for your own, this deprives you of the right to exercise legal capacity on an equal basis with others.  Mental health commitment laws violate Article 12.  In addition, the whole system of guardianship violates Article 12.  Sometimes people are put under guardianship and the guardian can put them into a psychiatric institution and consent on their behalf to forced ECT and drugs.  Instead of a guardian, the person should be offered support if he or she chooses it; and the support has to respect his or her will and preferences (from Article 12.4).  </td>
+<td class='tra'  lang='zh-CN'>
+我们最大的胜利——一个基于家长式的模型向基于尊重我们的人权的模范转</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:108</span>******************************************************</td>
+<td class='tra'  lang='zh-CN'>
+******************************************************</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+OUR PARTICIPATION IN THE DRAFTING AND 
+<br>NEGOTIATION OF THE CONVENTION</td>
+<td class='tra'  lang='zh-CN'>
+我们参与公约的起草和协商</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+An international team of users and survivors of psychiatry, led by Tina Minkowitz, participated actively in the negotiations at the United Nations (UN) in New York from the first session of the Ad Hoc Committee in August 2002 through the adoption of the completed text on December 13, 2006.  The Ad Hoc Committee was a unique process for all of us.  We seized a historic opportunity and accomplished something basic and fundamental that has changed the human rights landscape for us and for all people with disabilities.  Many of us made lasting friendships with each other and with other people with disabilities and allies, from around the world.  Working together closely, over the course of several years, in person at the UN and by email discussions, we brought user/survivor issues into the heart of the disability movement and found a rich common ground, especially on the issue of legal capacity, which is the ultimate test of the guarantee of full and equal enjoyment of human rights.  </td>
+<td class='tra'  lang='zh-CN'>
+一支由Tina Minkowitz领导的国际性的精神病学的使用者和幸存者队伍，</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Users and survivors from the World Network of Users and Survivors of Psychiatry (WNUSP), MindFreedom/Support Coalition International (MF/SCI) and other organizations came to the UN from  Canada,  Denmark,  Ghana,  Guinea,  Hungary,  Ireland,  India,  Japan,  New Zealand,  Nicaragua,  Peru,  Sweden,  Uganda,  the United Kingdom,  and the United States of America.  WNUSP members served on New Zealand’s and Sweden’s government delegations.  We were an impressive force.  WNUSP helped to create the International Disability Caucus (IDC) and participated actively in its governance through our seat on the steering committee.  The IDC had a principle of respecting the leadership of disabled people’s organizations (DPOs), and respecting any particular DPO on matters relating to its constituency.  In addition, we agreed that the Convention should “be equally relevant to all persons with disabilities, irrespective of the type of disability or geographical location”.  This helped to ensure solidarity. </td>
+<td class='tra'  lang='zh-CN'>
+来自WNUSP的使用者和幸存者，自由思想/支持联盟国际和其他来自加拿大</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+WNUSP contributed several position papers of our own, including proposed text for the treaty, much of which was accepted.  When the IDC began working together to present a unified position, we authored and/or coordinated the work of the IDC on some important articles, including Article 12 on legal capacity, Article 14 on liberty, Article 15 on torture, Article 17 on integrity of the person, Article 22 on privacy, Article 23 on home and family, Article 27 on employment, Article 29 on political participation, and part of Article 25 on health.  An important aspect of our work was building alliances, building consensus, and learning to collaborate with other disability rights activists.   Finally the IDC spoke with one coherent and powerful voice to promote a human rights agenda for all persons with disabilities.    </td>
+<td class='tra'  lang='zh-CN'>
+WNUSP贡献了我们自己的几项建议书，包括协议的提议文本，大部分被接纳了。当国际残疾核心小组开始一起工作去提出一个统一的立场，在某些重</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+WNUSP involvement started even before the first Ad Hoc Committee meeting, when we learned of a meeting being held in Mexico City in June 2002 to bring together experts to discuss the Convention.  WNUSP requested and received an invitation, and submitted a paper that set out the main tenets of our advocacy as well as commenting on the draft text that the Mexican government had prepared.  The meeting successfully established our role in the community of Non-Governmental Organizations (NGOs) and our advocacy was made part of a paper agreed to by the NGOs at the meeting.</td>
+<td class='tra'  lang='zh-CN'>
+WNUSP的参与到公约当中，最早甚至要追朔到当我们得知2002年6月在墨西</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+The first Ad Hoc Committee meeting established an agreement to continue the process of “considering proposals for a Convention,” and the second (in June 2003) agreed to set up a working group to produce a draft text for negotiation, drawing on proposals submitted by governments and civil society (including WNUSP).  Tina Minkowitz represented WNUSP as one of 12 NGOs that participated in the working group, along with 27 governments and one national human rights institution.  In this group, which convened in January 2004, all participants had an equal voice and collaborated to produce the resulting text.  Users and survivors of psychiatry finally had a seat at the table and spoke with a passion and clarity that was heard around the world.  </td>
+<td class='tra'  lang='zh-CN'>
+第一次Ad Hoc委员会会议建立了一个能够继续把“考虑对公约的建议”的过</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Then it was time for negotiation, when all governments and civil society organizations (including those that had not participated in the working group) had the opportunity first to improve the text, and then to settle on a final version that everyone could live with.  It was not an easy process, and attempts were also made to weaken the text.  However, the IDC’s approval was sought and wanted, since we represented the constituency that is supposed to benefit from the Convention.  This was important for WNUSP in securing recognition of equal legal capacity, liberty on an equal basis, free and informed consent and right to respect for integrity of the person, all without the limitations that had previously been inserted into documents dealing with the rights of users and survivors of psychiatry.  WNUSP and MF/SCI participated in several side events during the Ad Hoc Committee meetings primarily focusing on the importance of recognition of legal capacity on an equal basis with others and of the freedom to make our own decisions.  We worked hard and lobbied hard, and had to listen to a lot of disrespectful opinions.  In the last stages of the process we had to deal with a betrayal of our interests in a political process, when a footnote was inserted limiting the meaning of legal capacity in Arabic, Chinese and Russian to “capacity for rights” and not “capacity to act”.  But we were able to turn this around, with the help of our IDC allies and many governments who did not accept the footnote, and removing the footnote was the victory that capped our experience.  </td>
+<td class='tra'  lang='zh-CN'>
+然后，当所有政府和公民社会组织（包括那些没有参加到工作小组来的组</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+WNUSP Co-chair Tina Minkowitz was one of the two IDC speakers that welcomed the adoption of the Convention by the UN General Assembly on December 13, and several other WNUSP and MF/SCI members were also present.  On that day, we all stood tall and proud of what we had accomplished, and Myra Kovary summed it up by saying, “Let the revolution begin!”</td>
+<td class='tra'  lang='zh-CN'>
+NUSP 共同主席Tina Minkowitz是国际残疾核心小组的两个发言人中的其</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+The Convention was open for signing on March 30, 2007 and it was signed by almost half of the UN member states on the opening day, indicating their intent to ratify (become legally bound by the Convention).  It is now the task of the world community to bring the ideals that are laid out in the Convention into reality. </td>
+<td class='tra'  lang='zh-CN'>
+公约在2007年3月30日开放给成员国签署，在当日有大概一半联合国成员国&gt;签署了该公约，表明他们在本国批准的意愿（成为法律上受公约制约）。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+******************************************************
+<br>HOW TO USE THIS MANUAL</td>
+<td class='tra'  lang='zh-CN'>
+******************************************************
+<br>如何使用本手册</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+This manual is intended for users and survivors of psychiatry, and user/survivor organizations, as an informational guide and reference for working with the Convention.  Users and survivors have the opportunity to work with their government, through a national consultation process, on implementing the Convention, and also incorporate the Convention into advocacy they are doing (for instance, to get people out of institutions or stop forced drugging or electroshock).  The Convention is a rich document and people may choose to focus on one or another area, depending on circumstances and priorities.  </td>
+<td class='tra'  lang='zh-CN'>
+对于精神病学的使用者和幸存者，和使用者/幸存者组织，本手册打算用作&gt;信息指南和从事公约工作的参考。通过国家商议过程，使用者和幸存者有</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+We have highlighted the aspects of the Convention that address the human rights violations especially targeted against users and survivors of psychiatry, in the areas of legal capacity, liberty and right to live in the community, freedom from forced psychiatric interventions, our inclusion as people with disabilities and participation in enforcement mechanisms.  These are the areas that we believe will make a difference in the lives of all users and survivors of psychiatry, and without which other guarantees, such as the right to work and the right to vote, are meaningless to us.</td>
+<td class='tra'  lang='zh-CN'>
+我们已经强调公约的重要的方面，这些方面强调特别是针对精神病学的使</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Users and survivors of psychiatry are urged to read this manual together with the text of the Convention, and to apply it creatively to situations they are facing.  Besides guaranteeing specific rights, the Convention requires equality and non-discrimination in the enjoyment of all human rights and fundamental freedoms.  If the Convention and this manual do not address a particular situation, users and survivors can find the articles that seem most relevant and make their best argument.  Human rights lawyers can help, but may also need to be educated by the user/survivor movement to present our issues correctly.  </td>
+<td class='tra'  lang='zh-CN'>
+精神病学的使用者和幸存者被鼓励去一并读公约和本手册，并且创造性地</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+We face challenges in implementing the Convention, since there is as yet no government that complies with its requirements in relation to users and survivors of psychiatry.  Many governments will contest the obligations in the Convention and fight to keep their guardianship and mental health laws, to continue psychiatric detention and violence, and promote a deficit-based view of psychosocial disability requiring medical model “treatments”.  They will try to find loopholes or interpret it to make exceptions for the obligations they would rather not comply with.  However, we have had many victories in the process of creating the Convention, and there are encouraging signs that our message has been heard by some governments, and that our allies in the disability and human rights communities will continue to work with us at the international and national levels.  The challenges we face are not unique to our situation but are the same challenges faced by any group of disenfranchised people claiming our human rights as recognized in an international treaty.  Our movement has matured a great deal through the treaty process and will continue to meet the challenges to break through to real change in the lives of users and survivors of psychiatry everywhere.  </td>
+<td class='tra'  lang='zh-CN'>
+我们在实施公约时面临挑战，因为到现在为止，还有政府没有遵从与精神</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:140</span>******************************************************</td>
+<td class='tra'  lang='zh-CN'>
+******************************************************</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+GUIDE TO THE TEXT</td>
+<td class='tra'  lang='zh-CN'>
+文章导读</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1. HIGHLIGHTS OF THE CONVENTION</td>
+<td class='tra'  lang='zh-CN'>
+1、 公约最重要的部分</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Q: What is the Disability Convention?</td>
+<td class='tra'  lang='zh-CN'>
+Q：残疾公约是什么？</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A: Convention is another word for treaty, a binding agreement between nations. The Convention on the Rights of Persons with Disabilities (CRPD) is a multilateral treaty, a treaty among many nations. It declares specific obligations of governments to respect and enforce the human rights of persons with disabilities. </td>
+<td class='tra'  lang='zh-CN'>
+A、公约是条约的另一个称谓，是国家之间的有约束力的协议。《残&gt;疾人权利公约》是一个多边   的条约，一项多个国家之间条约。它宣告政&gt;府有特定的责任去尊重和加强残障人士的人权。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Q: Does the Convention cover users and survivors of psychiatry?</td>
+<td class='tra'  lang='zh-CN'>
+Q：公约涵盖精神病学的使用者和幸存者吗？</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A: Article 1 of the CRPD states that the purpose of the Convention is to protect and promote all human rights and fundamental freedoms of all persons with disabilities. This article in its definition of persons with disabilities includes those who have mental impairments. This formulation clearly includes users and survivors of psychiatry.</td>
+<td class='tra'  lang='zh-CN'>
+A：《残疾人权利公约》的第一条声明公约的目的是保护和促进所</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A: The purpose of the Convention is to protect and promote all human rights and fundamental freedoms by all persons with disabilities, including those who have mental impairments.  Users and survivors of psychiatry are covered by this language.</td>
+<td class='tra'  lang='zh-CN'>
+A：公约的目的是为了保护和促进所有残障人士，包括那些精障人士</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Q: How does the Convention deal with the issue of legal capacity?</td>
+<td class='tra'  lang='zh-CN'>
+Q：公约如何处理法律能力的问题？</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A: The concept of legal capacity has been used to deny personhood and to disqualify users and survivors from managing our own lives. Art 12 of the CRPD has dismantled these deprivations by conferring personhood to all persons with disabilities and by recognizing that we have the legal capacity to run our own lives.  Also if we so desire, we can seek support to exercise our legal capacity. Thus support is no longer inflicted upon us whether we want I it or not, rather it is assistance which has to be made available if we wish to use it.  </td>
+<td class='tra'  lang='zh-CN'>
+A：法律能力这个概念曾经被用作否认人格和剥夺使用者和幸存者管&gt;理我们自己的生活的资格。公约的第12条已经通过向所有残疾人赋予人格</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Q: Does the Convention prohibit forced drugging and electroshock?</td>
+<td class='tra'  lang='zh-CN'>
+Q：公约禁止强制性服药和电击治疗吗？</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A: Article 17 grants to all persons with disabilities the right to respect for their physical and mental integrity on an equal basis with others.  It is this right which protects persons who do not have disabilities from unwelcome treatment, forcible confinement or any other unwelcome invasion of their body and mind.  Article 17, by its guarantee of equality and non discrimination, also makes these available to us.  This guarantee is further strengthened by the fact that article 25 obliges health care professionals to provide treatment only on the basis of free and informed consent.  Free and informed consent can only be given by the person concerned, and not by family members, courts or others.  (This follows from the guarantee of legal capacity).  In addition under article 15 the Convention protects the right to freedom from torture and cruel, inhuman or degrading treatment or punishment, which includes medical or scientific experimentation without consent.  The cumulative effect of these provisions is to oust forced psychiatry.   </td>
+<td class='tra'  lang='zh-CN'>
+A：第17条授予所有残疾人赋有在与其他人平等基础上的、获得他人尊重他&gt;们的身心完整性的权利。这项权利保护那些没有残疾的人士免于不受欢迎</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Q: Does the Convention allow forced institutionalization/ hospitalization? </td>
+<td class='tra'  lang='zh-CN'>
+问：公约允许强制性体制化/住院吗？</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A: Persons with disabilities have the right to liberty on an equal basis with others, and deprivation of liberty cannot be justified on the basis of disability.  People with disabilities also have the right to live in the community, and to choose where and with whom to live, on an equal basis with others (and legal capacity ensures that each person can exercise this right directly and not have a guardian or family member substitute their decision).  Forced institutionalization or hospitalization on the basis of disability is therefore prohibited.  </td>
+<td class='tra'  lang='zh-CN'>
+答：残疾人拥有在与其他人平等的基础上的自由权利，而且基于残疾&gt;的对自由的剥夺是没有正当理由的。并且在与他人平等的基础上，残障人</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Q: What does the Convention say about people with psychosocial disabilities who are a danger to others?</td>
+<td class='tra'  lang='zh-CN'>
+问：公约关于对他人造成危险的社会心理残障人士有什么说法？</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+People with disabilities who violate the rights of others have the right to be treated on an equal basis with others by the police and penal law systems, including the provision of reasonable accommodation.  </td>
+<td class='tra'  lang='zh-CN'>
+答：在与他人平等基础上的，侵犯他人权利的残疾人有权利受到警察和刑法系统的待遇，包括合理便利。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Q: How will the Convention be enforced?</td>
+<td class='tra'  lang='zh-CN'>
+问：公约将会如何被执行？</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A: An international monitoring committee will be set up to receive reports from governments and make recommendations; the international committee can also receive complaints from individuals whose rights have been violated, but only if the government has ratified the Optional Protocol along with the Convention.  There will be a national focal point for implementation in the government, and also a national monitoring mechanism with independent powers.  Along with other persons with disabilities, users and survivors of psychiatry have the right to participate in government processes to implement the Convention (e.g. law reform and policymaking).</td>
+<td class='tra'  lang='zh-CN'>
+答：将会设立一个国际监察委员会，来接受政府报告和作出建议；只有</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2. GUIDE TO TERMINOLOGY, DEFINITIONS AND DESCRIPTIONS </td>
+<td class='tra'  lang='zh-CN'>
+2、 术语、定义和描述的导读</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+During the negotiations, it was impossible for the parties to agree on a definition of disability that included all persons with disabilities and excluded no person with a disability.  The Preamble of the Convention in subparagraph (e) recognizes “that disability is an evolving concept.”  Article 1 of the Convention states that, “The purpose of the present Convention is to promote, protect and ensure the full and equal enjoyment of all human rights and fundamental freedoms by all persons with disabilities, and to promote respect for their inherent dignity.  Persons with disabilities include those who have long-term physical, mental, intellectual or sensory impairments which in interaction with various barriers may hinder their full and effective participation in society on an equal basis with others.”</td>
+<td class='tra'  lang='zh-CN'>
+在协商过程中，要参与各方在残疾（包含所有残疾人和排除没有残</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+During the course of the negotiations, WNUSP developed language to refer to persons with psychiatric disabilities that moved away from the medical model of individual pathology.  We described ourselves as persons with psychosocial disabilities.  The word psychosocial refers to the interaction between psychological and social/cultural components of our disability.  The psychological component refers to ways of thinking and processing our experiences and our perception of the world around us.  The social/cultural component refers to societal and cultural limits for behavior that interact with those psychological differences/madness as well as the stigma that the society attaches to labeling us as disabled. </td>
+<td class='tra'  lang='zh-CN'>
+在协商的过程中，WNUSP发展了语言来提到从个人病理学的医学模式移开的&gt;精障人士。我们描述自己为社会心理残疾人士。“社会心理”一词指我们的</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+However, in using the term psychosocial, we have no in intention of associating ourselves with the psychosocial rehabilitation movement.  The term psychosocial disability is not yet understood in most countries of the world, and therefore, at the end of the negotiations, we agreed to use the more generally understood terminology of mental impairment in the text of the Convention.  Persons with mental impairments include users and survivors of psychiatry who experience or have experienced experiencing madness and/or mental health problems and/or are using or surviving, or have used or survived psychiatry/mental health services, as well as those of us who are perceived by others as having a mental disability/impairment.  </td>
+<td class='tra'  lang='zh-CN'>
+然而，在使用术语“社会心理的”方面，我们没有将我们自己与社会心理康</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+We prefer to use the term “psychosocial disability” and would like to introduce it into the vocabulary rather than use the term “mental impairment” when we are lobbying for implementation of the Convention.  We recognize that there may be difficulties in translating the word “psychosocial” into languages other than English.  We urge members of WNUSP to confer with each other and use their best judgment in making the translation.      </td>
+<td class='tra'  lang='zh-CN'>
+我们宁愿使用术语“社会心理残疾”，并且在我们为实施公约进行游说时愿</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3. THE PRINCIPLES OF THE CONVENTION</td>
+<td class='tra'  lang='zh-CN'>
+3、 公约的原则</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+The general principles of the Convention are articulated in Article 3 as follows:</td>
+<td class='tra'  lang='zh-CN'>
+公约的一般原则在以下的第三条清晰阐述：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(a) Respect for inherent dignity, individual autonomy including the freedom to make one’s own choices, and independence of persons;</td>
+<td class='tra'  lang='zh-CN'>
+（a）对固有的的尊严的尊重、个人自主权包括做自己</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(b) Non-discrimination;</td>
+<td class='tra'  lang='zh-CN'>
+（b）非歧视；</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(c) Full and effective participation and inclusion in society;</td>
+<td class='tra'  lang='zh-CN'>
+（c）充分和有效的参与和融入到社会；</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(d) Respect for difference and acceptance of persons with disabilities as part of human diversity and humanity;</td>
+<td class='tra'  lang='zh-CN'>
+（d）对差异的尊重和对残疾人的接受，以作为人类多元化</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(e) Equality of opportunity;</td>
+<td class='tra'  lang='zh-CN'>
+（e）机会的平等；</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(f) Accessibility;</td>
+<td class='tra'  lang='zh-CN'>
+（f）无障碍通用设计；</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(g) Equality between men and women;</td>
+<td class='tra'  lang='zh-CN'>
+（g）男女之间的平等；</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(h) Respect for the evolving capacities of children with disabilities and respect for the right of children with disabilities to preserve their identities.</td>
+<td class='tra'  lang='zh-CN'>
+（h）尊重演变中的残疾儿童的能力，和尊重残疾儿童的权利来</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+There are some important concepts in the preamble that do not reappear in the binding articles.</td>
+<td class='tra'  lang='zh-CN'>
+在序言中有一些重要的概念不会再在应履行的条款中出现。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Preamble:</td>
+<td class='tra'  lang='zh-CN'>
+序言：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(e) recognizes that disability is an evolving concept and that disability results from the interaction between persons with impairments and attitudinal and environmental barriers that hinder their full participation in society on an equal basis with others.</td>
+<td class='tra'  lang='zh-CN'>
+（e）承认残疾是一个演变的概念，残疾是伤残者和阻碍他们在&gt;与其他人平等的基础上充分地参与社会的各种态度和环境障碍相互作用所</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(i) recognizes the diversity of persons with disabilities</td>
+<td class='tra'  lang='zh-CN'>
+（i）承认残疾人的多元性</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(j) specifically includes those persons with disabilities who require more intensive support</td>
+<td class='tra'  lang='zh-CN'>
+（j）特定地包括那些需要更加深入细致的支持的残疾人</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(p) concerned about multiple forms of discrimination and specifically mentions discrimination on the basis of indigenous origin</td>
+<td class='tra'  lang='zh-CN'>
+（p）关心多种形式的歧视和特定地提到基于固有来源的歧视</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(t) highlights that the majority of persons with disabilities live in poverty and recognizes the critical need to address the negative impact of poverty on persons with disabilities.</td>
+<td class='tra'  lang='zh-CN'>
+（t）突出强调大多数残疾人生活在贫困中，并且承认对于强调贫困</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+The application of these principles will radically alter the lives of persons with psychosocial disabilities.  Some of the consequences will be:</td>
+<td class='tra'  lang='zh-CN'>
+这些原则的应用将会彻底地改变社会心理残疾人士的生活</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+- the abolition of mental health commitment laws, guardianship, and the insanity defense</td>
+<td class='tra'  lang='zh-CN'>
+- 精神健康收治法律、监护人制度以精神病防御的及废除</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+- the creation of a wide range of healing support, and</td>
+<td class='tra'  lang='zh-CN'>
+- 广泛的康复支持的创建，以及</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+- the liberation of our people from institutions.</td>
+<td class='tra'  lang='zh-CN'>
+- 我们残障人士从医疗等机构的释放</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4.  SUMMARY OF THE PROVISIONS IN THE CONVENTION AND GUIDE TO IMPLEMENTATION</td>
+<td class='tra'  lang='zh-CN'>
+4、 公约条款摘要和执行指南</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 1 sets out the purpose of the Convention, to guarantee equal enjoyment of all human rights and fundamental freedoms to all people with disabilities, and names certain groups of people with disabilities as being included (people with long-term physical, mental, sensory and intellectual impairments which in combination with various barriers may hinder participation in society).  </td>
+<td class='tra'  lang='zh-CN'>
+第一条：阐述公约的目的，保证所有残疾人平等享有所有人权和基</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 2 sets out definitions including definitions of </td>
+<td class='tra'  lang='zh-CN'>
+第二条：阐述定义包括以下定义：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+	•   “discrimination on the basis of disability” (a distinction on the basis of disability that has the purpose or effect of limiting human rights or fundamental freedoms, and discrimination includes the denial of reasonable accommodation) </td>
+<td class='tra'  lang='zh-CN'>
+“基于残疾的歧视”（有限制人权和基本自由的目的</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+	•   “reasonable accommodation” (adjustments needed in a particular case to ensure equal enjoyment and exercise of human rights and fundamental freedoms)</td>
+<td class='tra'  lang='zh-CN'>
+“合理便利”（对于确保平等享用和行使人权和基本</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 3 sets out principles of the Convention, including:
+<br>    
+<br>	•   Individual autonomy, including the freedom to make one’s own choices</td>
+<td class='tra'  lang='zh-CN'>
+第三条：阐述公约的原则，包括：个人自主权，包括自主做决定的自由</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+•   Respect for disability as part of human diversity</td>
+<td class='tra'  lang='zh-CN'>
+对残疾尊重，作为人类多元化得一部分</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+•   Non-discrimination
+<br></td>
+<td class='tra'  lang='zh-CN'>
+非歧视
+<br></td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 4 guarantees all human rights and fundamental freedoms to people with disabilities without discrimination, and requires governments to change their laws and practices to comply with the Convention.  An important provision in Article 4 obligates governments to consult closely with organizations of people with disabilities in implementing the convention and in all issues relating to people with disabilities.</td>
+<td class='tra'  lang='zh-CN'>
+第4条 ：没有歧视下保证残疾人的所有人权和基本自由，并要求政府修改</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:248</span>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+需要做什么：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 4 can be used by itself or in conjunction with other articles of the Convention to do away with laws, policies and practices that violate the human rights of people with disabilities.</td>
+<td class='tra'  lang='zh-CN'>
+第四条可以单独应用，也可以与公约中的其他条款联合应&gt;用，来废除侵犯残疾人的人权的法律、政策、和做法。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) All discriminatory laws must be repealed.  This includes guardianship or incapacity laws, provisions disqualifying people from legal acts based on disability (such as exercising the right to vote or to marry), and mental health laws authorizing deprivation of liberty or psychiatric interventions without the free and informed consent of the person concerned.</td>
+<td class='tra'  lang='zh-CN'>
+1）所有歧视性法律必须废除。这包括监护人制度或者无</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Discrimination against people with psychosocial disabilities must be prohibited by law.  Psychosocial disability must be included on an equal basis with other types of disability in anti-discrimination legislation.</td>
+<td class='tra'  lang='zh-CN'>
+2）对于社会心理残疾人士的歧视必须受到法律禁止。社会&gt;心理残疾必须在与其他类型残障平等的基础上包括在反歧视立法中。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Governments must ensure that public officials and agencies do not discriminate based on disability or otherwise violate the Convention.  Governments must also take measures to eliminate discrimination by individuals, organizations or private enterprises. </td>
+<td class='tra'  lang='zh-CN'>
+3）政府必须确保公共官员和机构不基于残疾歧视或以另外&gt;方式违反公约。政府也必须采取措施消除来自个人、组织或私人企业的歧</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4) Coercive and violent psychiatric interventions constitute discrimination and must be abolished.  </td>
+<td class='tra'  lang='zh-CN'>
+ 4）强制性的和暴力式的干预构成歧视，必须被废除。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+5) Organizations of users and survivors of psychiatry have a right to be consulted on implementation of the Convention and all other matters of law and policy of concern to us.  </td>
+<td class='tra'  lang='zh-CN'>
+5）精神病学的使用者和幸存者的组织有权利被在公约的执&gt;行和所有与我们相关的法律和政策的事务中被咨询。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+6) Enforce the guarantees in the Convention and provide legal remedies for violations.  </td>
+<td class='tra'  lang='zh-CN'>
+6）执行公约的保证并且为侵犯提供法律救济。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 5 guarantees equal protection and equal benefit of the law and prohibiting discrimination based on disability, and requires reasonable accommodation to be provided.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第5条  保证法律规定的平等保护和平等权益，并且禁止基于残疾的歧视，&gt;并要求提供合理便利。需要做什么：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Prohibit all forms of discrimination and enforce anti-discrimination laws.    </td>
+<td class='tra'  lang='zh-CN'>
+1）禁止所有形式的歧视和执行反歧视法律。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Identify what reasonable accommodation means for people with psychosocial disabilities and ensure that such accommodation is provided.  Situations where reasonable accommodation may be needed include interactions with government agencies (including police and penal law systems), education, work, and exercise of legal capacity (supported decision-making). </td>
+<td class='tra'  lang='zh-CN'>
+2）确认何种合理便利对社会心理残疾人士的意义，并确保提供该种&gt;便利。需要合理便利的情况包括与政府机构（包括警察和刑法制度）、教</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 6 guarantees to women and girls with disabilities the equal enjoyment of human rights and fundamental freedoms, and requires measures for the advancement, development and empowerment of women.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第六条  确保残疾妇女和残疾女孩平等享有人权和基本自由，并且要求采</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Protect women and girls from discrimination based on gender, disability or the interaction of gender and disability.  </td>
+<td class='tra'  lang='zh-CN'>
+1) 保护妇女和女孩免于基于性别、残疾或性别和残疾的相互作用的歧视。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Identify areas of multiple or intersecting discrimination affecting women and girls who are users and survivors of psychiatry, and take appropriate action.  </td>
+<td class='tra'  lang='zh-CN'>
+2) 确定影响身为精神病学的使用者和幸存者的妇女和女孩的、多重或交叉&gt;歧视的范围，并采取合适行动。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+For example:</td>
+<td class='tra'  lang='zh-CN'>
+例如：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Gender-based violence and discrimination is mutually reinforcing with psychiatric violence, such as:</td>
+<td class='tra'  lang='zh-CN'>
+基于性别的暴力和歧视是与精神病学暴力相互加强的，譬如：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+•   Psychiatric labeling of the experience of rape survivors</td>
+<td class='tra'  lang='zh-CN'>
+强奸幸存者的经历的精神病学标签化</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+•   Institutions confining women and men together, facilitating rape</td>
+<td class='tra'  lang='zh-CN'>
+机构把妇女和男人监禁在一起，促进强奸</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+•   Effect of electroshock and psychiatric drugs in destroying women’s ability to resist oppression</td>
+<td class='tra'  lang='zh-CN'>
+电击和精神科药物对破坏妇女抵抗压迫的能力的影响</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+•   These violations are not limited to women, but are a defining part of women’s experiences as survivors of psychiatry; obligations to prevent violence (Article 16) and combat cultural stereotypes (Article 8), as well as similar obligations under the Convention to Eliminate Discrimination Against Women (CEDAW), should be addressed from a gender and disability perspective to include such matters.  </td>
+<td class='tra'  lang='zh-CN'>
+这些侵犯不仅限于妇女，而是作为精神病学幸存者的妇女的经历的一&gt;个决定性的部分；防止暴力（第16条）的责任和与文化的陈规旧习作斗争</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 7 guarantees to children with disabilities the same rights as other children, including the right to express themselves freely and have their views taken into account on matters concerning them, and to have age- and disability-appropriate support in exercising these rights.</td>
+<td class='tra'  lang='zh-CN'>
+第7条 保证残疾儿童拥有与其他儿童相同的权利，包括自由表达意见和在</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:294</span>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+需要做什么：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Ensure that children are listened to and their wishes respected regarding the use of mental health and other services.  </td>
+<td class='tra'  lang='zh-CN'>
+1）确保儿童被倾听，并且他们的意愿在精神卫生和其他服务方面受到尊重。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Children must not be subjected to electroshock, psychosurgery, or neuroleptic drugs.  Any other psychiatric interventions must include the participation of the children with respect for their right to health care on the basis of free and informed consent (see Article 25) in the context of their evolving capacities as defined in Article 12 of the United Nations Convention on the Rights of the Child.  </td>
+<td class='tra'  lang='zh-CN'>
+2） 儿童不能遭受电击、精神外科手术、或者抗精神病。任何其他精神病</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Provide children with appropriate support to understand matters concerning them and to express their views.</td>
+<td class='tra'  lang='zh-CN'>
+3） 向儿童提供合适的理解关于他们的事物和表达他们观点的支持。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 8 addresses awareness-raising and requires governments to foster respect for the rights of people with disabilities and to combat prejudice and harmful practices, at all levels of society including families and communities.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第8条 提出提高意识和要求政府形成对残疾人的权利的尊重，并且在包括家庭和社区的社会的各个层面与偏见和有害的做法作斗争，需要做什么：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Promote language and concepts that are positive and non-judgmental about states of mind and ways of expressing oneself.  </td>
+<td class='tra'  lang='zh-CN'>
+1） 促进对于思想状态和表达方式的积极和非判断性的语言和概念。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Assist communities to develop the capability to support and interact with people in crisis.</td>
+<td class='tra'  lang='zh-CN'>
+2） 协助社区去发展支持以及与危机中的人士互动的能力。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Develop and teach non-violent and non-discriminatory methods of conflict resolution.  It is not acceptable to use psychiatric labeling, institutionalization, or interventions, or legal incapacitation, to resolve conflicts.  </td>
+<td class='tra'  lang='zh-CN'>
+3） 发展和教育对于冲突解决的非暴力和非歧视性的方法。使用精神病标</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 9 requires states to take measures to ensure access by persons with disabilities on an equal basis with others to the physical environment, transportation, information and communications, and other facilities and services provided to the general public. </td>
+<td class='tra'  lang='zh-CN'>
+第9条  要求国家采取措施确保残疾人士在与其他人平等的基础上，无障碍地获得物质环境、使用交通工具、利用信息和通讯，和其他向普通公众提</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:314</span>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+需要做什么：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Ensure that the access needs of people with psychosocial disabilities are identified and addressed, in consultation with user/survivor organizations.</td>
+<td class='tra'  lang='zh-CN'>
+在与使用者和幸存者组织的商议中，确保社会心理残疾人士的无障碍需求</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 10 reaffirms the right to life of all human beings and obligates governments to ensure its effective enjoyment by people with disabilities on an equal basis with others.</td>
+<td class='tra'  lang='zh-CN'>
+第10条 重申所有人类的生命权，和使政府有责任确保让残疾人在与其他人&gt;平等的基础上有效地享有它。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+The right to life (Article 10) does not override the right to liberty (Article 14) when it comes to issues of suicidality.  The right to life cannot be superseded by the right to liberty.  Both rights must be respected.  </td>
+<td class='tra'  lang='zh-CN'>
+当提到自杀问题时，生命权（第十条）并不优先于自由权。生命权&gt;不能被自由权所取代。两项权利都必须受到尊重。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:322</span>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+需要做什么：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Prosecute murders of people with disabilities, and ensure the means of survival for people with disabilities on an equal basis with others.</td>
+<td class='tra'  lang='zh-CN'>
+1） 对谋杀残疾人进行控告，并且确保残疾人在与其他人平等的基础上拥</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Suicide and assisted suicide are controversial in the disability community. Suicide may be a valid personal choice, but it can also be a response to preventable conditions of deprivation, violence and discrimination.  Neither criminal sanctions nor coercive psychiatry is an appropriate response to suicidal attempts or wishes.  People with experience of suicidality should be considered experts on this issue when developing law and policy.</td>
+<td class='tra'  lang='zh-CN'>
+2） 自杀和协助性自杀在残疾人社区存在争议。自杀可能是一个有法律效</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 11 requires governments to respect international human rights and humanitarian law in situations of armed conflict, humanitarian emergencies and natural disasters, and take measures to ensure the safety of people with disabilities in these circumstances.</td>
+<td class='tra'  lang='zh-CN'>
+第11条  在武装冲突、人道主义紧急情况和自然灾害的情况下，要求政府</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:330</span>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+需要做什么：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Ensure that people with psychosocial disabilities have access to needed support systems and to safety measures and the necessities of life, and are not restricted any more than the general population.</td>
+<td class='tra'  lang='zh-CN'>
+1） 确保社会心理残疾人士能够使用需要的支持系统，以及安全措施和生</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Until such time as persons with psychosocial disabilities are not held in institutions, governments must develop emergency plans to ensure the safety of such persons during situations of armed conflict, humanitarian emergencies and natural disasters.     </td>
+<td class='tra'  lang='zh-CN'>
+2） 直到像残疾人不被关押在医院等机构这样的时候，政府必须发展应急</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 12 guarantees the right to enjoy legal capacity, including both the capacity to have rights and the capacity to act (to exercise rights and responsibilities and make decisions in everyday life), and requires governments to provide access to support in exercising legal capacity for those who may need it; any measures related to the exercise of legal capacity must respect a person’s rights, will and preferences, and safeguards must be established to prevent abuse.
+<br>What needs to be done:
+<br>Article 12 is the most innovative and far-reaching provision in the Convention, and has a major significance for users and survivors of psychiatry.  Instead of being treated as non-persons to be acted on by others, assistance will be offered in times of crisis, confusion or distress, which we have the right to accept or refuse.  
+<br>1) Repeal guardianship and incapacity laws and provisions throughout the legal system. 
+<br>2) Abolish the insanity defense and replace with disability-neutral standards for adjudicating criminal responsibility (e.g. actual criminal intent, taking account of the circumstances of the crime, motivation, etc.).
+<br>3) Develop mechanisms to provide support in making decisions to a wide range of people with disabilities with diverse needs.  
+<br>4) In supported decision-making, the judgment and will of the person are not contested, unlike in guardianship and substituted decision-making. 
+<br>5) Agencies that habitually deal with acts requiring an exercise of legal capacity (such as banks, notaries, judges, medical personnel) need to provide some support measures as a form of reasonable accommodation.   
+<br></td>
+<td class='tra'  lang='zh-CN'>
+第十二条 保证享有法律能力的权利，包括拥有权利的能力和行为的能力（行使权利和承担义务以及日常生活的自主做决定），
+<br></td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 13 guarantees access to justice for persons with disabilities, including through accommodations to facilitate acting as a witness or party in court proceedings and investigations, and requires training for police and others involved in the administration of justice.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第13条 保证残疾人获得司法保护，包括通过便利去促使他在法律诉讼程序&gt;和调查中作为一个证人或参与方，并且要求对警察和其他相关司法领域工</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Provide accommodation to people with psychosocial disabilities in investigations and court proceedings.  Such accommodations may include access to support networks, avoidance of emotional provocation, and acceptance of non-conventional types of communication. </td>
+<td class='tra'  lang='zh-CN'>
+1）在调查和法律诉讼程序中，向社会心理残疾人士提供便利&gt;。像这样的便利可以包括获得支持网络、避免情绪激发、和接纳非传统类</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Repeal laws whereby persons with psychosocial disabilities are disqualified from being complainants or witnesses.  </td>
+<td class='tra'  lang='zh-CN'>
+2）废除使社会心理残疾人士失去成为原告和证人资格的法律。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Abolish provisions whereby the trials of persons with psychosocial disabilities are postponed indefinitely and replace them with provisions that protect the due process rights of persons with psychosocial disabilities.</td>
+<td class='tra'  lang='zh-CN'>
+3）废除对社会心理残疾人士无限期的延长审判的法律条款，和用保&gt;护社会心理残疾人士的法定诉讼程序权利来代替它们。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 14 guarantees liberty and security of the person on an equal basis with others, ensuring that disability cannot justify a deprivation of liberty, and that people with disabilities deprived of liberty are entitled to human rights guarantees on an equal basis with others and to reasonable accommodation.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第14条 保证残疾人在与其他人平等基础上的自由和人身安全，确保不得以&gt;残疾作为剥夺自由的理由，以及被剥夺自由的残疾人，在与其他人平等的</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Repeal any laws that use disability as a factor to justify a deprivation of liberty (e.g. mental health commitment laws).  </td>
+<td class='tra'  lang='zh-CN'>
+1） 废除任何以残疾为剥夺自由的因素的法律（例如：精神卫生收治法律）。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Release all individuals currently deprived of liberty in psychiatric settings or based on psychosocial disability.</td>
+<td class='tra'  lang='zh-CN'>
+2） 释放现时在精神病科环境的、或者基于社会心理残疾的被剥夺自由的所有个人。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Ensure equal access for people with psychosocial disabilities to procedures to determine guilt or innocence of crimes, including the presumption of innocence and due process.   (See also “What needs to be done” under Article 13, subsection 3.)</td>
+<td class='tra'  lang='zh-CN'>
+3） 确保社会心理残疾人士拥有平等获得进入决定其是有罪还是无罪的法</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4) Provide reasonable accommodation in law enforcement procedures, court proceedings and penal system. </td>
+<td class='tra'  lang='zh-CN'>
+4） 在执法程序、法律诉讼程序和刑法系统中提供合理便利。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 15 prohibits torture and cruel, inhuman or degrading treatment or punishment, including medical experimentation without consent, on people with disabilities.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第15条 禁止对残疾人实施酷刑和残忍、不人道或有辱人格的待遇和惩罚，包括对其不同意的医学试</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Freedom from torture and cruel, inhuman or degrading treatment or punishment is one of the most well established principles of international human rights law.  Medical experimentation without consent was first recognized as a form of torture or cruel, inhuman or degrading treatment or punishment in the International Covenant on Civil and Political Rights, Article 7.   </td>
+<td class='tra'  lang='zh-CN'>
+免于酷刑、残忍、不人道或有辱人格的待遇或惩罚，是国际人权法中一个</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Psychiatric drugs and other invasive methods such as electroshock are inherently experimental and endanger the mental and physical capacities, autonomy and personality of an individual.  Use of such methods without free and informed consent constitutes torture or cruel, inhuman or degrading treatment or punishment.  The practice of forced, coerced or deceptive psychiatric interventions must be stopped immediately and criminally sanctioned.  </td>
+<td class='tra'  lang='zh-CN'>
+1） 精神病药物和其他像电击那样的侵害性的方法是固有的试验性的，并</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Ensure that psychiatric interventions are not used for purposes of interrogation, coercion or intimidation, punishment, preventive measures, for any reason based on discrimination of any kind (these are the purposes of torture as defined in the UN Convention Against Torture, Article 1), or for any purposes relating to the convenience of third parties.  Such use must be prohibited whether in psychiatric settings, prisons, residential services, facilities for children or older persons, or in any other setting.</td>
+<td class='tra'  lang='zh-CN'>
+2） 确保精神病学干预在任何理由下，基于任何种类的歧视，或因为任何</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Some psychiatric methods may be inherently inhuman and degrading, and should be banned.  For example, direct electroshock makes the person experience the full force of the convulsion without anesthesia, in addition to the brain-damaging effects of the shock itself, and it should be considered a form of torture or cruel, inhuman or degrading treatment, regardless of whether consent was sought or obtained.    </td>
+<td class='tra'  lang='zh-CN'>
+3)一些精神病学方法可能是固有的不人道的和有辱人格的，应该被禁用。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Please note that Article 25 requires that health care be provided on the basis of free and informed consent.  This may be a more direct basis for stopping forced, coercive and deceptive psychiatric interventions, but advocates should be aware that the freedom from torture and cruel, inhuman or degrading treatment or punishment is relevant and applicable.</td>
+<td class='tra'  lang='zh-CN'>
+请注意第二十五条，要求必须基于自由和知情同意权提供卫生保健。这也</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 16 requires prevention of exploitation, violence and abuse, including monitoring of programs designed to serve people with disabilities, prosecution of violations where warranted, and measures to promote recovery and reintegration of victims.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第16条  要求防止剥削、暴力和凌虐，包括设计用于服务残疾人的方案的</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Prevent all forms of exploitation, violence and abuse in family settings, communities and service provider facilities.  This includes sexual abuse and violence, economic exploitation and all other forms.  </td>
+<td class='tra'  lang='zh-CN'>
+1） 在家庭环境、社区和服务提供者的设施中，防止所有形式的剥削、暴</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Psychiatric interventions such as administration of drugs, electroshock or psychosurgery, done against the person’s will or without free and informed consent are forms of exploitation, violence and abuse that must be addressed by preventive measures, monitoring, prosecution and services to victims, as required by this Article.</td>
+<td class='tra'  lang='zh-CN'>
+2） 像药物施行、电击或者精神外科手术这样的违背他人意愿或没有自由</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Survivors of exploitation, violence and abuse should have access to social support and services of their choice, which should not be conditioned on acceptance of a psychiatric diagnosis.  </td>
+<td class='tra'  lang='zh-CN'>
+3） 剥削、暴力和凌虐的幸存者应该获得社会支持和他们选择的服务，该</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4) Support should be provided to withdraw safely from psychiatric drugs.  </td>
+<td class='tra'  lang='zh-CN'>
+4） 应该对安全停止精神科用药提供支持。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 17 guarantees to people with disabilities the right to respect for physical and mental integrity on an equal basis with others.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第17条 保证残疾人有权利获得在与他人平等基础上的身心完整性的尊</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) The right to respect for integrity on an equal basis is violated by violent or degrading practices done to people with disabilities.  This right can be broader than the right to be free from torture and cruel, inhuman or degrading treatment or punishment, and may also be seen as its more positive expression. </td>
+<td class='tra'  lang='zh-CN'>
+1） 当残疾人受到暴力的或者有辱人格的做法对待时，在平等基础上的对</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) The right to integrity can be used to reject the administration of psychosurgery, electroshock and neuroleptic drugs on the grounds that these procedures and drugs have a harmful effect on healthy organs and human autonomy and creativity.  </td>
+<td class='tra'  lang='zh-CN'>
+2） 完整性的权利可以因为这些程序和药物对于健康器官和人类自主权和</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 18 guarantees liberty of movement and freedom to choose one’s own residence, the right to a nationality and the right to use processes such as immigration proceedings.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第18条  保证自由迁徙和选择自己居所的自由，享有国籍的权利和使用像</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Laws and policies regarding international travel, immigration and naturalization, should treat people with disabilities on an equal basis with others, including reasonable accommodation.  No one should be rejected from entering a country based on past or present psychosocial disability.</td>
+<td class='tra'  lang='zh-CN'>
+关于国际旅行、移民和归化的法律和政策应该在与其他人平等的基础上对</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 19 guarantees the right to live in the community with choices equal to those of others, including the choice of where and with whom to live, and ensures access to services that support such life choices.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第十九条  保证有与其他人平等地选择居住在社区的权利，包括选择住在</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Free all our people from institutions.  Ensure that no one is kept in an institution against his or her will, and that housing and services are provided in communities.    </td>
+<td class='tra'  lang='zh-CN'>
+1）  把我们的人从各种机构中释放出来。确保没有违背任何人的意愿监禁&gt;他/她，并且在社区提供住房和服务。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Ensure that housing and services, including residential services, respect individual autonomy.  End coercive medication policies in residential and outpatient services.  </td>
+<td class='tra'  lang='zh-CN'>
+2） 确保住房和服务，包括住宅服务，尊重个人自主权。在居住和门诊服</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Community services must be accessible and open to people with psychosocial disabilities, and be responsive to their needs.</td>
+<td class='tra'  lang='zh-CN'>
+3） 对于残疾人，社区服务必须是容易得到和向他们开放的，并响应他们</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4) Provide a wide array of services, developed in consultation with user/survivor organizations, that may include peer support, crisis hostels and places of safe respite, and advocacy.  </td>
+<td class='tra'  lang='zh-CN'>
+4） 在与使用者/幸存者组织商议过程中发展并提供广泛的服务，包括残疾&gt;人相互支持、危机宿舍和安全缓刑和辩护的处所。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 20 requires states to ensure personal mobility of persons with disabilities, with the greatest possible independence.</td>
+<td class='tra'  lang='zh-CN'>
+第二十条  要求国家确保残疾人的个人流动拥有最大可能性的自主权。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 21 requires states to ensure that persons with disabilities can exercise the freedom of information and expression, through all forms of communication of their choice.  
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第二十一条   要求国家通过所有残疾人选择的通讯形式，确保残疾人行使&gt;获得信息的表达的自由</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Ensure that persons with psychosocial disabilities are provided with full and accurate information.  A major discrimination faced by persons living with psychosocial disabilities is that we are told what people think we should be told and not provided with the information we have the right to receive and obtain. </td>
+<td class='tra'  lang='zh-CN'>
+1） 确保向残疾人提供充分和准确的信息。一个社会心理残疾人士面临的</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Ensure that non-conventional communication by people with psychosocial disabilities is accepted. </td>
+<td class='tra'  lang='zh-CN'>
+2） 确保社会心理残疾人士的非传统通讯被接纳。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 22 guarantees privacy and in particular, the privacy of personal, health and rehabilitation information of persons with disabilities on an equal basis with others.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第二十二条  保证隐私，并且特别是在与其他人平等的基础上，保护残疾</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Protect persons with psychosocial disabilities from being pressured to release medical records during custody litigation and other court proceedings on an equal basis with others.  </td>
+<td class='tra'  lang='zh-CN'>
+保护社会心理残疾人士在与其他人平等的基础上，在羁押诉讼和其他法律</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 23 guarantees equality in family, parenthood, marriage and relationships, and the right to retain fertility, and ensures that custody of children may not be deprived based on a parent’s or child’s disability.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第二十三条    保证家庭、亲子关系、婚姻和恋爱关系的平等，和保持生</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Repeal laws that disqualify people with disabilities from marriage, consensual sexual relationships, or exercising parental rights.  </td>
+<td class='tra'  lang='zh-CN'>
+1） 废除使残疾人丧失结婚、经双方同意的性关系或者行使父母权利的资</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) End forced or coerced sterilization or abortion on people with psychosocial disabilities.  (See also Articles 15, 16, 17.)</td>
+<td class='tra'  lang='zh-CN'>
+2） 结束对残疾人强制和威胁性的绝育和堕胎。（同见第15、16、17条）</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Ensure that people do not lose the right or freedom to have sexual relationships in residential programs or when using the services of in-home assistants.</td>
+<td class='tra'  lang='zh-CN'>
+3） 确保人们不丧失在住宅项目或使用家庭助手服务时发生性关系的权利</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4) Personal assistants should be available to parents with psychosocial disabilities if the parents wish to have such assistance.</td>
+<td class='tra'  lang='zh-CN'>
+4） 如果社会心理残疾的父母需要个人助手服务，他们应该可以获得该协</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+5) Train judges and lawyers to ensure that decisions about custody of children do not reflect prejudice about parents or children with disabilities.</td>
+<td class='tra'  lang='zh-CN'>
+5） 培训法官和律师以确保儿童的监护的决定不反应对残疾家长和孩子的</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 24 guarantees the right to an inclusive education at all levels, including tertiary education and lifelong learning, and that no child shall be excluded from the general education system based on disability.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第二十四条    保证各级水平实行包容性教育，包括高等教育和终身教育</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Ensure that teachers are able to meet the diverse learning needs of students, and provide a safe and respectful academic and social environment.</td>
+<td class='tra'  lang='zh-CN'>
+1） 确保教师能够满足学生多元化的学习需求，并且提供安全和尊敬的学</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Provide support and reasonable accommodation to students with psychosocial or learning disabilities.  Identify and meet needs without imposing labels on children.</td>
+<td class='tra'  lang='zh-CN'>
+2） 向有社会心理残疾或学习障碍的学生提供支持或合理便利。确认和满</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Ensure that no child is excluded from education because of psychosocial disability, or coerced to use mental health services or psychiatric drugs as a condition for receiving an education.</td>
+<td class='tra'  lang='zh-CN'>
+3） 确保儿童不因为社会心理残疾被排除在教育之外，或者被威胁使用精</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4) Provide opportunities and reasonable accommodation for adults with psychosocial disabilities to complete their education and participate in lifelong learning.  </td>
+<td class='tra'  lang='zh-CN'>
+4） 向社会心理残疾成人提供完成教育和参加终身学习的机会和合理便利</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 25 guarantees equality in health care and services, including the requirement of free and informed consent, and access to health care and services related to a disability, including early identification and intervention “as appropriate”.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第二十五条   保证在卫生保健和服务中的平等，包括要求自由表达和知情&gt;同意，和获得与残疾相关的卫生保健和服务，包括酌情提供早期诊断和干</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Ensure that the right to free and informed consent is legally recognized and enforced without discrimination.  </td>
+<td class='tra'  lang='zh-CN'>
+1） 确保自由表达和知情同意的权利被法律承认和没有歧视地执行。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) End forced/coerced medication in emergency rooms and inpatient facilities.  </td>
+<td class='tra'  lang='zh-CN'>
+2） 结束在急诊室和住院设施中的强迫性/威胁性的医药使用。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Develop and promote alternatives to medical model psychiatry that are adequately funded and independent of medical system.  Ensure that alternatives exist for people to receive support for mental and emotional needs without accepting a psychiatric diagnosis.  </td>
+<td class='tra'  lang='zh-CN'>
+3） 发展和促进医疗模式精神病学的的替代方案，这些方案受到充分资助</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4) Provide accurate information to people considering the use of psychiatric drugs, electroshock and psychosurgery.  Such information should be developed in consultation with users and survivors of psychiatry with diverse perspectives, including those who had adverse and traumatic experiences with the interventions in question.  </td>
+<td class='tra'  lang='zh-CN'>
+4） 向考虑使用精神科药物、电击和精神外科手术的人们提供准确的信息</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+5) Ensure that physical health problems are not misidentified as psychosocial disability.</td>
+<td class='tra'  lang='zh-CN'>
+5） 确保身体健康问题不被误诊为社会心理残疾。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+6) Mental health screening is an inappropriate application of early identification and intervention that results in labeling and discrimination rather than meeting human needs.  In particular, no one should be prescribed psychiatric drugs as a preventive measure.</td>
+<td class='tra'  lang='zh-CN'>
+6） 精神健康审查是一项导致标签化和歧视、而不是满足人类的需要的早</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+7) End discriminatory practices regarding health insurance and life insurance.</td>
+<td class='tra'  lang='zh-CN'>
+7） 结束与医疗保险和人寿保险相关的歧视做法。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 26 requires measures to enable people with disabilities to develop their abilities to the fullest extent, including through peer support, rehabilitation and habilitation.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第二十六条  要求采取措施使得残疾人最大限度地发展他们的能力，包括</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Ensure that peer support is recognized and promoted in compliance with this Article.</td>
+<td class='tra'  lang='zh-CN'>
+确保残疾人相互支持如本条款所述被承认和促进。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 27 guarantees non-discrimination and reasonable accommodation in the right to work and requires positive measures to ensure that the open labor market is inclusive to persons with disabilities and to promote opportunities for employment, career advancement and self-employment/entrepreneurship; slavery, servitude and forced labor are prohibited.  
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第二十七条  保证工作的权利不受歧视和提供合理便利，并要求采取积极</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Enact anti-discrimination laws and policies applicable to all forms and sectors of employment, and ensure that people with psychosocial disabilities are fully covered by these laws on an equal basis with all others.</td>
+<td class='tra'  lang='zh-CN'>
+1） 制定可应用于就业的所有形式和领域的反歧视法律和政策，并确保社</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Include people with psychosocial disabilities in programs to promote full employment and economic empowerment.  </td>
+<td class='tra'  lang='zh-CN'>
+2） 把社会心理残疾人士包含进促进就业和经济赋权的项目中。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Promote a wide range of employment opportunities and career paths without discrimination based on disability.</td>
+<td class='tra'  lang='zh-CN'>
+3） 在不基于残疾的歧视下，促进广泛的就业机会和职业发展路径。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4) Employ people with disabilities in public sector jobs for which they are qualified.
+<br>5) Require reasonable accommodation in all aspects of employment and qualifications for employment.</td>
+<td class='tra'  lang='zh-CN'>
+4） 在公共部门雇佣残疾人做他们能胜任的工作</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+6) Promote self-employment, entrepreneurship, job sharing, higher education to prepare for career of the person’s choice.  </td>
+<td class='tra'  lang='zh-CN'>
+6） 促进自营就业、创业经营、分享工作、和为基于个人选择的职业做准</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+7) End the exceptions to national labor laws given to sheltered workshops or nonprofit organizations employing persons with disabilities.  Such exceptions (for example, allowing lower wages to be paid in these settings) do not help people with disabilities but perpetuate exploitation (contrary to Article 16) and constitute discrimination.    </td>
+<td class='tra'  lang='zh-CN'>
+7） 结束国家劳动法给予雇佣残疾人的庇护工场或非牟利组织的例外。像</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+8) Employment for people with disabilities should be treated as employment and not as therapy or charity.  Alternative employment and social enterprises are worthwhile if they pay a living wage and comply with other general requirements to preserve workers’ rights and dignity.  “Sheltered workshops” that discriminate against persons with disabilities with respect to pay can no longer operate on that basis.    </td>
+<td class='tra'  lang='zh-CN'>
+8） 残疾人就业应被视为工作，而不是治疗或慈善。如果其他就业和社会</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 28 guarantees an adequate standard of living and access to social protection and poverty reduction programs, and to assistance with disability-related expenses, including respite care, for people with disabilities living in situations of poverty.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第二十八条  对生活在贫穷状态下的残疾人，保证获得适足的生活水平和</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Take all necessary measures to realize an adequate standard of living for people with psychosocial disabilities, including adequate food, water, clothes and housing.  No one should be forced to enter an institution for lack of the necessities of life.</td>
+<td class='tra'  lang='zh-CN'>
+1） 采取一切必要的措施以使社会心理残疾人士实现适足生活水平，包括</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Ensure that development and poverty reduction programs include, and are responsive to, people with psychosocial disabilities.  </td>
+<td class='tra'  lang='zh-CN'>
+2） 确保发展项目和减贫项目包括社会心理残疾人士，并且响应他们的需</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 29 guarantees equality in political and public participation, including the right and opportunity of people with disabilities to vote and be elected, and obligates governments to promote the participation of people with disabilities in the conduct of public affairs, including through disabled people’s organizations.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第二十九条  保证参与政治和公共活动的平等，包括残疾人投票和被选举</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Ensure that no one is disqualified from voting on the basis of psychosocial disability.   </td>
+<td class='tra'  lang='zh-CN'>
+1） 确保任何人不能基于社会心理残疾被取消投票的资格。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Ensure that people who are in institutions have the right to vote.  </td>
+<td class='tra'  lang='zh-CN'>
+2） 确保在机构中的人拥有投票的权利。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Recognize and support organizations of users and survivors of psychiatry on the national, regional, international and local levels.  </td>
+<td class='tra'  lang='zh-CN'>
+3） 在国家、地区、国际和本地等各层面承认和支持精神病学的使用者和</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 30 guarantees, among other things, the right to participate in cultural activities and to utilize one’s creative and intellectual potential, and the right 
+<br>of people with disabilities to respect and support for their cultural identities.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第三十条 除其他事项外，保证参加文化活动和利用个人创造和智力潜力的&gt;权利，而且尊重和支持残疾人的文化身份的权利</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Provide opportunities for people with psychosocial disabilities to develop themselves and contribute to art, science and other cultural work.</td>
+<td class='tra'  lang='zh-CN'>
+1） 向社会心理残疾人士提供发展自我和为艺术、科学和其他文化工作做</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Ensure that cultural productions and sports and recreation opportunities do not discriminate against the participation of people with psychosocial disabilities as participants or spectators.  </td>
+<td class='tra'  lang='zh-CN'>
+2） 确保文化产品、运动和娱乐机会不会歧视作为参与者或者观众的社会</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Protect the rights of people with psychosocial disabilities to practice their own indigenous, traditional and/or minority cultures, and to develop programs and services that are culturally competent and acceptable.   </td>
+<td class='tra'  lang='zh-CN'>
+3） 保护社会心理残疾人士实践他们自己天生的、传统的和/或少数群体文&gt;化的权利，并且发展文化方面有竞争力和可接受的项目和服务。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 31 requires governments to collect information (including statistical and research data), in a manner that complies with confidentiality safeguards and international norms on the collection and use of statistics, to enable them to formulate policies to give effect to the Convention.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第31条  要求政府在遵行保密防护措施和关于收集和使用统计数据的国际</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Ensure that user/survivor organizations have input into the decision of what type of information is collected, how it is used, and whether or not it is disaggregated based on the type of disability (e.g. whether statistics about employment rates of people with disabilities are further broken down to show people with psychosocial disabilities compared with people with intellectual disabilities, blind, deaf and deafblind people, people with physical disabilities, etc.).  </td>
+<td class='tra'  lang='zh-CN'>
+确保使用者/幸存者组织投入到下列事项的决定中：收集了什么信息、信息&gt;如何使用、和它是否基于残疾的类型被分解（例如：关于残疾人就业率的</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 32 requires governments to promote and engage in international cooperation to realize the objectives of the Convention, including activities done in partnership with organizations of people with disabilities, by measures such as including people with disabilities in international development programs, facilitating capacity-building, cooperation in research, and technical and economic assistance.  </td>
+<td class='tra'  lang='zh-CN'>
+第32条  要求政府促进和参加国际合作来实现公约的目标，包括与残疾人</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:540</span>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+需要做什么：</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Ensure that international development programs comply with the letter and spirit of the Convention, i.e. that they support activities to give effect to the human rights of people with disabilities as set out in the Convention, and that they do not support activities that violate the Convention or discriminate against people with disabilities.</td>
+<td class='tra'  lang='zh-CN'>
+1） 确保国际发展项目遵从公约的字面意义和精神，例如，他们支持落实</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Support capacity-building of user/survivor organizations according to the needs identified by those organizations.  </td>
+<td class='tra'  lang='zh-CN'>
+2） 根据由使用者/幸存者组织确认的需求，支持他们的能力建设。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Ensure that user/survivor organizations at the international, regional, national and local levels have a consultative role in international cooperation activities, and can contribute as partners.  This may require financial support and capacity building.  </td>
+<td class='tra'  lang='zh-CN'>
+3） 确保使用者/幸存者组织在国际、地区、国家和本地层面都在国际合作&gt;活动中拥有协商的角色，并且能够作为伙伴作出贡献。这可能要求财务支</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 33 requires governments to set up separate mechanisms for implementation of the Convention and for monitoring of the convention, at a national level. The monitoring function can be done by a national human rights institution or a separate mechanism that meets the requirements for national human rights institutions, in particular independence from the political authorities. Organizations of people with disabilities are to be involved and participate fully in the monitoring process.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第33条  要求政府在国家的层面，为实施公约和监管公约，设立独立机制</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) The national focal point for implementation must have a mechanism to consult closely with user/survivor organizations.  Implementation of Article 33 can also draw on Rule 17 of the Standard Rules on the Equalization of Opportunities for Persons with Disabilities, which required governments to set up a coordinating mechanism on disability issues that includes organizations of people with disabilities.  </td>
+<td class='tra'  lang='zh-CN'>
+1） 国家实施公约的焦点必须有一个与使用者/幸存者紧密商议的机制。第33条的实施也可以利用《残疾人平等机会标准规则》中的第17条，它要求政&gt;府在包括残疾人组织等残疾问题上设立协调机制</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) National monitoring is a new feature for a human rights treaty, but many countries have national human rights institutions with varying powers.   The establishment of a monitoring mechanism, or assigning the monitoring function to an existing human rights institution, must be done in consultation with user/survivor organizations, and provide for an ongoing role of user/survivor organizations in contributing to its work.  </td>
+<td class='tra'  lang='zh-CN'>
+2） 国家对人权条约的监督是一项新特点，但是许多国家拥有各种各样权</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) The monitoring mechanism should include qualified users and survivors of psychiatry as members and/or employees.</td>
+<td class='tra'  lang='zh-CN'>
+3） 监督机制应当包括有资格的精神病学的使用者和幸存者作为成员和/或&gt;雇员。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Articles 34 through 39 and the Optional Protocol to the Convention deal with the creation and responsibilities of an international committee of experts to monitor the Convention. Governments are encouraged to nominate experts with disabilities to serve on this committee. Governments must report to the committee and consult organizations of people with disabilities in preparing these reports; organizations of people with disabilities can also communicate with the committee directly to inform them about the situation in their country. People with disabilities whose human rights have been violated can make a complaint to the committee if their government has ratified the optional protocol. The committee also has the power to investigate “grave and systematic” human rights violations, including through country visits, if a country has ratified the optional protocol.
+<br> 
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第34条 至第39条     公约的可选协议书应付监督公约的国际专家委员会</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Establish an open and transparent process for nominating candidates for the monitoring committee, seeking qualified people with disabilities and candidates supported by disabled people’s organizations.</td>
+<td class='tra'  lang='zh-CN'>
+1）为向监察委员会提名候选人建立一个开放和透明的程序，寻找合资格的&gt;残疾人和受残疾人组织支持的候选人。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Comply with reporting requirements and invite the contribution of user/survivor organizations to national reports.</td>
+<td class='tra'  lang='zh-CN'>
+2）遵从报告要求，并邀请使用者/幸存者组织对国家报告作出贡献。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+3) Support the monitoring committee in seeking and receiving communications from people with disabilities and disabled people’s organizations.  </td>
+<td class='tra'  lang='zh-CN'>
+3）在寻求和接收来自残疾人和残疾人组织的沟通时支持监察委员会。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+4) Cooperate with the committee and with disabled people’s organizations in improving compliance with the Convention.  </td>
+<td class='tra'  lang='zh-CN'>
+4）在改进遵从公约时与委员会和残疾人组织合作。</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Article 40 provides for the conference of states parties to consider matters related to implementation of the Convention. This is a new feature for a human rights Convention and will facilitate regular exchange of information and capacity building by governments and civil society, including organizations of people with disabilities.
+<br>What needs to be done:</td>
+<td class='tra'  lang='zh-CN'>
+第40条  为缔约国会议做准备，使其考虑与实行公约相关的事情。这是人</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1) Support the active participation of disabled people’s organizations in the Conference of States Parties when it considers matters related to implementation of the Convention, for example to contribute to setting an agenda, making presentations, and participating in panels and discussions. </td>
+<td class='tra'  lang='zh-CN'>
+1） 当缔约国会议考虑与实行公约相关的事情时，支持残疾人组织积极参</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2) Contribute financial support for people with disabilities from the Global South to attend these meetings.</td>
+<td class='tra'  lang='zh-CN'>
+2） 从环南联盟向残疾人提供财务支持以参加这些会议。</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:578</span>******************************************************</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The full text of the Convention on the Rights of Persons with Disabilities is available in several languages on the UN website at http://www.un.org/disabilities/default.asp?navid=12&amp;pid=150</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:582</span>******************************************************</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+HOW CAN WE ACCOMPLISH WHAT NEEDS TO BE DONE?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+1.  POSITIVE MEASURES RELATING TO KEY ARTICLES OF THE CONVENTION</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Article 12:  Models for supported decision-making and totally voluntary services</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+1)  Supported decision-making</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+PO-Skåne - Personal Ombudspersons in Skåne, Sweden: a service which offers supported decision-making for persons with psychosocial disabilities</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Summary of an article by Maths Jesperson </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The social model of disability rejects the notion that the problem is within the individual, rather it is the society which does not meet the person in such a way that he or she can function.  Society must relate to the person in another way so that his or her difficulties in exercising legal capacity diminish.  If some people have difficulties communicating and expressing their wishes, the solution is to develop a relationship with the person and find ways to make it possible for the person to express and communicate what he or she wants.  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+A Personal Ombudsperson (PO) is a professional who has the skills required to advocate effectively for a client’s rights in front of various authorities or in a court of law.  All the PO’s of PO-Skåne have academic degrees or similar education.  Most of them are social workers, some are lawyers.  They come from various ethnic backgrounds.  The PO is not in alliance with psychiatry or social services or any other authority and not with the client’s relatives or any other person in the client’s surroundings.  The PO works only with the consent of his or her client. The PO does only what the client wants him or her to do.  It can take a long time, sometimes several months, before the client knows and dares to tell the PO what kind of help he or she wants.  The PO has to wait, even though a lot of things in the client’s life may be in chaos.  It usually takes the PO several years to develop a long-term relationship and build enough trust to be able to address essential matters.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+In other models, it is usually the clients who have to adjust to the bureaucratic system, but the PO-Skåne service works the other way.  The PO’s have to be very flexible and creative and unconventional in finding ways to work with their clients.  Many clients are very suspicious or hostile or hard to reach for other reasons.  The PO has to go out and meet them where they are.  Making contact sometimes takes several months.  It could involve going out to the park to start talking to a homeless person or talking through the mail drop with someone who lives barricaded in their apartment.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There is no formal procedure to get a PO.  After a relationship has been established the PO just asks, “Do you want me to be your PO?”  If the answer is yes, then the matter is settled.  The PO doesn’t keep any records.  All documents belong to the client.  When the PO/client relationship is terminated, the PO has to return all papers to the client or burn them together with the client.  No papers or notes remain with the PO.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The PO-Skåne service has been in existence for over 10 years.  It started in 1995 with 2 PO’s.  In 2000 it became a permanent user-run service and today it has 25 PO’s working full time.  Two thirds of the financing is provided by that State and one third is provided by the local community.  For more information see www.po-skane.org (in Swedish and English language) or contact Maths Jesperson at maths.jesperson@bredband.net.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+2)  What can we learn from traditional models of healing?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Summary of a research study conducted by Bhargavi Davar, Deepra Dandekar, Madhura Lohokare and Deepak Salunke on “Health and Healing in Western Maharashatra: The role of traditional healing centers in mental health service delivery.”</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+A large class of pre-modern institutions or traditional healing centers nurture people in their existential quest for emotional and spiritual growth.  People who come there are not labeled with “mental illness”, though many bring emotional and other difficulties.  In a detailed study of more than 20 traditional healing centers in India, it became clear that these institutions organize their spaces and their philosophies around the experiences of distress, recovery and personal growth and not around “mental illness”.  Built into the values of such centers is a respect for each person’s capacity, as a person is fully involved in their own recovery process through the performance of ritual.  Most importantly, the centers value voluntarism and choice.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Compared to mental hospitals, cultural healing centers are very accessible in all parts of the State to all kinds of people.  Furthermore, these are not “paid” services in the free market sense.  Here, pre-capitalistic economies leave the economic decisions to the individuals using the centers.  Each center is known for its powers to cure something specific: e.g. distress caused by infertility or alcohol addiction. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Each center has its own philosophy, but some common themes related to personal recovery are: linkage to life, community, nature, to other human beings, to their own self-expression and to the cosmos/some transcendental dimension.  Health is mind/spirit/body, all together.  There is no “mental” separate from the bodily and the cosmological.  Many people were struggling with the personal and inter-personal, philosophical and existential questions of life and seeking, if not finding, answers through these centers.  They are not seen as “incapable” people.  The center acts as a retreat for those people to find themselves and move on in their lives.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The architecture of the healing centers consists of open and airy community spaces.  There are no high walls, wires, grills, or locks anywhere.  There are no solitary cells.  People who are seen as violent and dangerous are out in the open, in front of everybody, posing a moral question to the community all the time.  They might have been tied to a tree or to a stairway, but they maintained their interactions with the community.  The community had the moral obligation of providing for their personal needs (including a bit of sky).  They were not isolated or forgotten.  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+People visiting have access to all parts of these centers.  There is no division of spaces between the healers and the users and their families.  Community healing spaces exist where everyone participates equally, although under the directorship of the healer.  Everyone involved in the ritual healing assumes a part of the responsibility in the healing.  In the local healing centers, the healing is primarily interactional and the working spaces where healing actions take place are organized in congruence with this outlook.  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There are a variety of sensory inputs in the architecture and in the ritual practices.  Spaces are organized in a seamless and negotiable manner, suited to human living and community negotiation and bonding.  Large open spaces are available for celebrations, dancing, trance, drumming, chanting, possession, mediumship, etc.  In one center there are healing séances – an intense form of psychodrama.  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The landscape of the place is also a part of life and well being.  Nature itself is sanctified and becomes part of the ritual life and habitat in many of these centers.  The tree is a symbol of stability, hope and vitality and people can connect to this symbol in an intensely personal way.  They literally pin their hopes and pains, sometimes their aggressions, on the trees.  As the tree is witness to the life worlds of millions of people, tens of years before and will continue to be witness for ten years after, the tree carries a sense of eternity for the sufferer beyond individual mortality.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+In one sect, the users seeking their own recovery can join a group of wanderers who wander and journey with sheep, caring for them.  It is believed that the sheep have miraculous healing powers.  The users live in the freedom and space of nature, their lives anchored to and their experiences shaped by the lives of the sheep.  Wandering minstrels are also found living or staying temporarily in many of these centers.  From experiencing another kind of imagination, wandering has led to spiritual re-opening for at least some people.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The local healing centers deal with personal agitation, anger and violence in a gentler, playful ritualized manner that brings the person back to the community quickly and does not fully rob the person of dignity, freedom and liberty.  Violence is seen as a part of existence and is attributed to external causes (e.g. spirits or demons) and so individual labeling or criminalizing does not occur.  The individual healers had sufficient inner stability and confidence in their practice and healing traditions to tame the angry spirits or demons and return the person intact and whole to the community.  Healers who believe they are protected by the divine are not afraid of human follies.  They do not exhibit anger or anxiety or fear when confronted with the violence of the evil spirit.  An angry and evil spirit spells trouble and destruction for the whole community, not just for the person – so the community has a stake in the safe return of their relative.  Any imputed or actual violence that happens in the context of suffering is understood as an indicator of external forces and as a community issue and remedies are sought within the healing and ritualized network rather than within an individualistic punishment framework. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+3) Non-coercive alternatives; reframing notions of ‘safety’ and ‘risk’ with regard to shared risk and responsibility; and pre-crisis planning </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Summary prepared by Chris Hansen and Shery Mead </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The Chinese symbol for crisis has two parts: “danger” and “opportunity”. Many of the most defining and pivotal revelations and changes in our lives emerge from such painful and chaotic times. Forced treatment of people deemed to be experiencing a mental health crisis assumes the worst, and in denying people their voice and choice, denies them also the chance to redefine themselves, change, grow and find the awaiting opportunities. The trauma experienced in such loss frequently damages our sense of autonomy, worth and self-determination. We come to believe that we are bad or dangerous, or that we require others to make decisions for us because we are incapable. One of the greatest losses we experience is the loss of our sense of who we are in the context of our community. An experience of forced treatment causes us to abandon our lives, and we return to a community that sees us as dangerous, vulnerable, volatile and “ill”.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+A number of peer-run alternatives to crisis have been developed over the years, and there is now a growing body of research available to both confirm their effectiveness, and to support their ongoing development. In their Crisis Hostel research project, Jeanne Dumont and Kristine Jones, found that the test group (who could choose between the hostel and hospitalization), had better healing outcomes, greater levels of empowerment, higher levels of self care, and a reduction in traditional crisis services than the control group who could only access the hospital. One study examined changes in the stories of people who had many previous hospitalizations and were now using a trauma-informed peer run crisis alternative. They found that, where many people had taken on a strong identity of “mental patient” after repeated hospitalizations, the alternative outcome included “critical learning” (being able to redefine one’s role, and not seeing one’s self as “crazy”).</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+A user/survivor tells a story of multiple losses and stresses that left her feeling that suicide was the only viable solution:</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ “In hospital I was treated as though I deserved to be punished. People treat their animals better than many psychiatric patients are treated. Any self-respect I had quickly disappeared. As a result of a rather long hospitalization I lost my well-paid management  job, custody of one of my children, my friends and social supports, and ended up having to rely on benefits, the food-bank and other charities. It has taken me many, many years to regain my sense of self, and to this day I still struggle with the sense of shame and ‘otherness’ this experience created. The sad thing is that if someone had lent me a caring ear and helped me to see the options, none of this would have happened.”  (user/survivor of psychiatry)</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The best-intentioned use of coercion can lead to irreparable damage. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+“I was forced into hospital, held down and drugged. I now have post-traumatic stress and flash-backs from that time that are worse than any ‘diagnosis’ I was given before then. I would far rather have been sent to the police station and borne the consequences of a person who had violated the law than treated as person who is unable to reason.” (user/survivor of psychiatry)</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The widely-held view that coercive treatment potentially saves lives and protects society is a form of social control that fails to acknowledge the cost and the damage to the individuals concerned. It also overlooks the number of people who as a result can’t find a way out of the mental health system (‘chronic mental patients’) and the countless other social problems forced treatment creates. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Crisis alternatives are not only imperative, then, as an alternative to what is frequently experienced as the trauma of forced treatment, but there is growing evidence that they are more effective in many measurable ways.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Peer-run crisis alternatives can operate from a set of assumptions completely different from traditional services. Traditional services focus of finding a diagnosis and treating it (predominantly pharmacologically) whereas crisis alternatives can focus on how people have made meaning out of their experience, building mutually responsible relationships, and creating “new stories.” Peer-run crisis alternatives that are trauma-informed recognize that past trauma (including psychiatric hospitalization) results in a way of seeing and relating that leaves people disconnected, isolated, and shamed, providing an awareness of how people’s individual painful life experiences (physical, sexual and emotional abuse, major loss, disaster, war, forced treatment, etc.) impact every aspect of their lives.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Understanding that the way we see, relate, act and know occurs within the context of our histories, there is no assumption of a ‘problem’, and therefore no need for assessment or evaluation. Instead peers work at developing new ways of communicating their needs and feelings to one another without threat or coercion. For some of us, for example, thinking and speaking of Suicide is a way of dealing with our strong feelings. To be able to talk about what those feelings are (acknowledging that Suicide is not a feeling); when, why and how they arise, and having the option of exploring other ways of expressing them without the threat of hospitalization requires both the willingness to sit with the discomfort on both sides of the conversation, and the courage to negotiate other ways of thinking and talking about it. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Trauma-informed peer support does not assume a diagnosis or a problem. Instead, the focus is on developing relationships that are committed to mutual learning, growth and challenging of one another. The traditional ‘expert-patient’, or ‘helper-helpee’ roles are replaced by the expectation of a mutual relationship involving give and take. Being constantly the receiver of services has meant that many of us have lost much of our sense of having valid and respected roles within our communities. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Crisis alternatives can provide the opportunity to challenge the traditional notions of risk and safety. Risk, safety and liability define and drive much of the mental health services provided currently. The underlying message we assimilate as service users is that we are dangerous, fragile and out of control.  Safety becomes about other people’s discomfort. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Peer crisis alternatives, on the other hand, can offer the safety of trusting relationships that are mutually negotiated. We can begin to talk about shared risk, shared responsibility, and to start to practice new ways of responding when we have strong feelings. Power is discussed honestly, and we can support one another in taking risks in an environment where making mistakes is not just tolerated, it is encouraged.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+As well as offering a response to crisis that will listen, validate, explore and challenge old and new ways of making meaning, crisis alternatives can provide the opportunity to develop a ‘pro-active crisis plan or interview’. This is a structured pre-prepared process that can serve as a type of advance directive, as well as being one resource with which to enhance the development of the relationship. Individuals practicing peer support are taught to use the interview as a template to guide them in a process of discussion and growing dialogue.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Some crisis alternatives provide a venue- usually a home-like environment in the community where people can stay for a few nights in the company of peers. Others provide home-based services or peer-run options at a venue open during the day.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Here are some questions that may provide the basis of a crisis interview and plan:
+<br>1. What peer support/crisis alternative is and what it’s not (not about treatment, people not seen as ill, but seen as responsible adults trying to learn something).
+<br>2. Relationships and the importance of mutual healing (it needs to work both ways, exploring how mutual relationships have been helpful and/or taken our power).
+<br>3. Facilitate a non-illness story (building on a person’s subjective experience and language).
+<br>4. Thinking “from a distance” (How might someone else describe your difficult experiences)?
+<br>5. Think together about the kinds of things that make a difference (Crisis as opportunity for growth rather than returning to baseline).</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+After the basic introduction is built, some guideline questions are suggested:</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Crisis Interview:</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+1. If you use this crisis alternative instead of another crisis service, and it worked really well for you, what would be different in your life?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+What are some other things in your life that have already led to that kind of difference?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+How will we know if that’s what’s happening while you’re here?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+2. Can you describe a positive experience you’ve had in which people were able to challenge you into trying new things? Who were the people involved? What were they doing?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+What do you need in order to “hear” that challenge from people here?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+How will you challenge us if you feel that we’re “stuck?”</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+3. Imagine that there is no mental health language. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Describe yourself on a really good day (what are you feeling, what are you doing, with whom)? </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+On a really bad day:</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+4. Can you describe a time when you were headed towards a really bad time and you decided, and then were able, to turn it around? </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Who or what helped? </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+What did they do?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+When you’ve turned it around, what were you able to accomplish?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+5. What would you be willing to try when you’re using the crisis alternative?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+How will you/we know if you’re trying it?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+What do you want to make sure we’re doing while you’re here?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+How will you/we know if we’re trying?</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+References:</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Bloom, S. (1997). Creating Sanctuary: Toward the evolution of sane
+<br>societies. New York, Routledge.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Copeland, M.E. and Mead, S. (2004) Wellness recovery action plan and
+<br>peer support: Personal, group and program development. Dummerston, VT:
+<br>Peach Press.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Dumont, J. and Jones, K. (2004). Findings from a consumer/survivor
+<br>defined alternative to psychiatric hospitalization. Outlook, Spring, 4-6.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+MacNeil C., and Mead, S. (2005). A narrative approach to developing
+<br>standards for trauma-informed peer support. American Journal of
+<br>Evaluation, 26(2), 231-244.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Mead, S. and Hilton, D. (2003). Crisis and Connection. Psychiatric
+<br>Rehabilitation Journal 27(1), 87-94.
+<br> 
+<br>Mead, Shery (2005), Peer Support: An Alternative Approach. Shery Mead.
+<br> 
+<br>Mosher, L. R. (1999). Soteria and Other Alternatives to Acute Psychiatric Hospitalisation: A Personal and Professional Review. The Journal of Nervous and Mental Disease, 187, 142-149.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+O’Hagan, M. (2006). The Acute Crisis: Towards a recovery plan for acute mental health services in New Zealand.  Wellington, New Zealand: Mental Health Commission (Available from www.mhc.govt.nz).</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Podvoll, E., (1990). The Seduction of Madness: Revolutionary Insights into the World of Psychosis and a Compassionate Approach to Recovery at Home. Harper Collins Publishers, NY.
+<br> 
+<br>SAMHSA. Roadmap to Seclusion and Restraint Free Mental Health Services, (2006): http://www.mentalhealth.samhsa.gov/publications/allpubs/sma06-4055/. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Stastny, P and Lehman, P (2007) Alternatives Beyond Psychiatry. Peter Lehmann Publishing.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+4) Peer advocacy (relates also to Article 13 on Access to Justice)</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Summary of an article written by Dan Hazen 
+<br> 
+<br>“An ex-patient voice has been let into the oftentimes oppressive psychiatric system to see that the needs of those who are often unheard are heard.  Clearly a milestone has been made through the efforts of a group of people who for years have been stigmatized, discriminated against, abused by the system and otherwise ‘kept down’ or kept quiet by certain factions in society.”  Gloria C. Hale
+<br> 
+<br>Peer Advocacy refers to the process or act of a person of equal standing pleading the cause of a person who shares that equal standing.  An example is a lawyer who provides a legal defense for another lawyer.  Another example is a person who has an experience of emotional difficulties or challenges providing advocacy for another person with similar experiences.  
+<br> 
+<br>Peer Advocacy was developed to assist persons who are, have been, or might become involved in the psychiatric system.  Peer Advocates speak out so that the individual’s choices and wishes are made clear and respected.    
+<br> 
+<br>Peer Advocacy is an innovative and exciting vehicle of empowerment.  Many people experience stigmatization and discrimination as a result of psychiatric labelling.  Peer advocates have a common bond of having received psychiatric treatment.  
+<br> 
+<br>What is a Peer Advocate: - Peer Advocacy is non-clinical and Peer Advocates are not part of the “mental health system”.
+<br> 
+<br>A Peer Advocate represents someone else’s interests.  The individual being represented is the person who should define his or her interests – within the bounds of the law and mutual propriety.  The job of the Peer Advocate is to help the individual get as much as possible of what he or she wants and what he or she is legally entitled to.  Peer Advocates inform the individual about the options, assist the person in expressing preferences, and ensure that these preferences are heard and vigorously pursued within the scope of the law.  A Peer Advocate may appear to be in charge, but this should never result in setting the goals for the individual.
+<br> 
+<br>Peer advocates may accompany the individual to situations such as “treatment team meetings”, discharge planning meeting, medication over objection hearings, and retention hearings in the court system.  (Forced treatment and detention must be stopped under the Convention, but there is still a role for Peer Advocates to ensure that these practices do not return.)  Peer Advocates may monitor court proceedings in a community to address and to report on violations of civil liberties and human rights.
+<br> 
+<br>Peer Advocacy ensures a practice of reasonable accommodation, supported decision making, and attempts to establish, expand, protect and enforce the human, legal and civil rights of people all people, particularly people engaged by the psychiatric/mental health system.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+5) Advanced directives</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Currently legally binding advanced directives are being developed for use in circumstances when a person is incapacitated.   Advanced directives can include the designation of an agent to make decisions on one’s behalf as well as specific directives regarding health care.  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Supported decision-making will necessitate the development of advanced directives that are not based on incapacity but are designed to communicate a person’s desires while retaining his or her legal capacity. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Article 14: Reasonable Accommodation in the Criminal Justice System for Persons with Psychosocial Disabilities </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Summary of an article written by Mari Yamamoto</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+When we advocate for no forced treatment and to abolish the insanity defense, we are faced with arguments not only like, "Do you let people with mental illness just die?" but also, “Do you want mentally ill people to face the death penalty or let them be in prisons?  It is too cruel."</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+According to the principles of the Convention on the Rights of Persons with Disabilities, reasonable accommodation must be provided if a person with a psychosocial disability is lawfully detained.  However, reasonable accommodation cannot justify low standards of human rights for all, or the existence of the death penalty, and so we must seek the 
+<br>reform of the whole criminal justice system to fully realize reasonable accommodation for persons with psychosocial disabilities.  Furthermore, we support alternatives to incarceration and the discretion to refrain from prosecution where appropriate, so long as these measures do not 
+<br>involve compulsory psychiatric treatment.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+While we cannot agree with the insanity defense in principle, it needs to be left open as a practical option as long as the death penalty and other harsh measures are being used in the penal system.  We think that all people should be protected from the death penalty and other punishments that cause great harm.  Such protection must not be conditioned on persons with disabilities accepting an inferior status of legal incapacity in the determination of responsibility for crimes.  Therefore we seek abolition of the insanity defense as part of a comprehensive penal reform.  We do not condone compulsory psychiatric detention or treatment for people acquitted by reason of insanity.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Violations of human rights still do exist all over the world for any persons in the criminal justice system, but here we address what reasonable accommodation would look like in a just system.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+What is needed:</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+1) To guarantee the right of due process for persons with psychosocial disabilities</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+a) Some people need support to be guaranteed effective access to information
+<br>and communication (see Article 21).</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+For example: </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+support for getting legal services,
+<br>peer support for self advocacy, or 
+<br>family support both before and after being prosecuted.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Friends or family are often denied access to persons after they have been arrested and in many cases during interrogation before prosecution.  Only lawyers have access to the person who has been arrested, but many lawyers do not know how to communicate effectively with persons with psychosocial disabilities.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+b) To guarantee the right of bail</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If the person who is arrested is confused or has a psychosocial disability, the right to bail is necessary and should not lead to forced hospitalization.  The person should have the option of being in a place where his or her human rights are guaranteed and respected and where his or her disability is accommodated. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+For example, in some countries a person who has been arrested can be detained for several weeks while facing police interrogation.  Persons who are appealing a verdict claiming they are innocent are sometimes detained while awaiting appeal.  Persons who are injured, however, are eligible for bail.  Persons with psychosocial disabilities should be accorded the same accommodation, both before and after prosecution.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+2) In prison</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+a) Some people need support to guarantee effective access to information and communication.  See examples as above in 1 a).</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+b) Access to education, medical treatments, therapies, exercise, and other activities should be guaranteed to persons with psychosocial disabilities on an equal basis with others.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+c) Persons with disabilities should not be put into isolation cells on the basis of disability.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+d) Persons with psychosocial disabilities should not be segregated into “special prisons”; however, persons with psychosocial disabilities who are in prison should have access to support of their choosing to accommodate their disability.  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Reasonable accommodation in the criminal justice system is a subject that clearly needs further discussion.  Please contribute your thoughts and experience. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Article 23: Custody matters</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Develop models to support parents with psychosocial disabilities as well as children with psychosocial disabilities to maintain family relationships through crises.  This will involve retraining/educating family court judges, lawyers, law guardians, Child Protective Workers, teachers, school psychologists, therapists, etc.  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Article 27: Employment   </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+How do we put reasonable accommodation into practice for users and survivors? </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+•   Periods of unemployment due to psychosocial disability should not count against a person’s work record.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+•   Environment may need to be quiet or stimulating.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+•   Supervision and work relationships may need to be worked out flexibly over a longer period than usual.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+•   Provide access to support from job coaches for people who wish to utilize such support.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+2.  DEVELOP ORGANIZATIONS AND SUPPORT FOR USERS AND SURVIVORS TO OPPOSE COERCIVE PSYCHIATRY </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• Individuals</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• Local organizations </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• National organizations </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• Regional organizations</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Promote young users and survivors to take leadership roles in our organizations to build the ongoing strength of the movement</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+“Nothing About Us Without Us” (motto of the International Disability Caucus): We users and survivors are the experts on our own experiences.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+3.  DEVELOP AND MAINTAIN A NETWORK WITH OTHER DISABILITY RIGHTS ACTIVISTS </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• International Disability Caucus (IDC)</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• International Disability Alliance (IDA)</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• Consortiums of Non-Governmental Organizations (NGOs) led by disabled people’s organizations including organizations of users and survivors of psychiatry, at the local, national and regional levels</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• Build alliances with people from the United Nations agencies such as the Office of the High Commissioner for Human Rights (OHCHR), United Nations Development Programme (UNDP), etc. in all countries.    </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+4.  DEVELOP GOVERNMENT SUPPORT FOR THE CONVENTION</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• Build alliances with members of parliament and national government</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• In countries that are resistant to ratifying the Convention at national level, encourage state and local governments to pass resolutions in support of the Convention and work for its implementation.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+5.  EDUCATE OURSELVES ABOUT HUMAN RIGHTS [TO BE ADDED]</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+6.  DEVELOP RELATIONSHIPS WITH THE MEDIA  [TO BE ADDED]
+<br>MONITORING</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+1. Role for user/survivor organizations</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• Educate governments</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• Advise governments as experts</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+2. National monitoring</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• Work with national human rights institutions or new mechanisms that may be set up to monitor the Convention at the national level.  Such mechanisms need to be independent from the government and have control over their own budgets.  They should be composed in a way that reflects all sectors and diverse populations of the country and include people with disabilities (including users and survivors of psychiatry) and be responsive to diverse communities.  Their roles may vary but can include proposing legislation, making recommendations on positive measures for implementation, and in some cases, adjudicating complaints of human rights violations.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+3. Participation in UN monitoring</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• CRPD Conference of States Parties and Treaty Body (Committee on the Rights of Persons with Disabilities)</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Many governments and NGOs would like the Conference of States Parties to be a forum for sharing information and discussing challenges in implementing the Convention.  This is different from the role the Conference of States Parties has played in other human rights treaties, but this type of forum has been done with environmental treaties and other treaties where information-sharing is important.  We do not yet know whether this will be implemented, or when, but user/survivor organizations that are interested in international forums for cooperation of this kind should keep it in mind when making plans and budgets.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The Treaty Body is a committee of experts chosen by the Conference of States Parties to oversee compliance with the Convention.  Experts should be knowledgeable in the area of human rights and disability, and participation of experts with disabilities (including users and survivors of psychiatry) is desirable.  Experts are nominated by governments that are States Parties to the Convention (i.e. that have ratified the Convention).  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The main functions of the Committee are:  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+to receive and comment on reports from governments about their implementation of the Convention and to what extent the human rights of people with disabilities are realized in their country, including any obstacles or challenges;</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+to issue general comments or recommendations as guidance to States Parties in implementing the Convention (such comments or recommendations can deal with emerging issues or clarify areas that are poorly understood);</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+to receive individual complaints (if the State Party has ratified the Optional Protocol) and decide on their merits (i.e. whether the State Party has violated the individual’s rights under the Convention), and recommend actions to be taken to resolve the complaint (including urgent interim measures to prevent irreparable harm);</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+to investigate grave and systematic violations of the Convention, including by a visit to the country concerned, and make recommendations to rectify the situation.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+NGOs (including organizations of users and survivors of psychiatry) can communicate with members of the treaty body in the following ways:</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+NGO reports or “shadow reports” drawing attention to human rights violations or concerns in a country that is reporting to the Committee.  NGO reports can be comprehensive, covering the whole Convention, or can be focused on particular articles or issues.  A growing trend is for NGOs in a country to unite in preparing one large report with many sections contributed by different constituencies.  It is not necessary to be a lawyer to do a “shadow report” but NGOs should be able to give references for facts presented and to point to the articles of the Convention that have been violated, or are otherwise relevant.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Helping individuals to make complaints of human rights violations to the Committee.  It is important to familiarize oneself with the procedures of the Committee and to consider the best uses of this mechanism; it is also important to make sure to educate members of the Committee on any issues in an individual complaint that may be poorly understood.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Attending the Committee’s session in Geneva to present information (usually based on the NGO report) in sessions held for that purpose; also meeting with committee members individually and holding side events on issues of concern.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The Committee can ask NGOs to help governments by providing technical assistance on issues within the competence of an NGO.  This may be relevant for user/survivor organizations that have developed good programs on supported decision-making, peer support, legislative reforms on legal capacity complying with article 12, etc., and are in a position to advise on such matters.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+DPOs (disabled people’s organizations), including organizations of users and survivors of psychiatry, should be consulted by the government in nominating members of the Committee.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+DPOs should lead any NGO coalitions that make shadow reports; if DPOs are not in a position to lead administratively (other organizations may have better resources, etc.) it should be a principle of the coalition that DPOs are the experts on their own issues (e.g. that a user/survivor organization is the expert on user/survivor issues) so that DPOs are leading the work in substance.</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+• Other UN Treaty Bodies and Human Rights Mechanisms</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+1) International Covenant on Economic, Social and Cultural Rights (ICESCR), monitored by the Committee on Economic, Social and Cultural Rights</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+2) International Covenant on Civil and Political Rights (ICCPR), monitored by the Human Rights Committee</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+3) International Convention on the Elimination of all forms of Racial Discrimination (ICERD), monitored by the Committee Against Racial Discrimination</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+4) Convention Against Torture (CAT), monitored by the Committee Against Torture</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+4a) Optional Protocol to the Convention Against Torture (OPCAT), monitored by the Subcommittee for the Prevention of Torture</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+5) Convention to Eliminate all forms of Discrimination Against Women (CEDAW), monitored by the Committee to Eliminate Discriminate Against Women</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+6) Convention on the Rights of the Child (CRC), monitored by the Committee on the Rights of the Child</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+7) International Convention on the Protection of the Rights of All Migrant Workers and Members of their Families, monitored by the Committee on Migrant Workers</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+8) Human Rights Council, created by the UN General Assembly (replaces the former Human Rights Commission).  Governments are elected to the Human Rights Council, which meets in Geneva to look into situations of concern both thematically and in individual countries.  The new mechanism of Universal Peer Review (UPR) will allow the Council to look into the human rights situation in each country, comprehensively.  NGOs can submit information to the Universal Peer Review process.  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The Human Rights Council also designates Special Rapporteurs, who are independent experts assigned to look into situations and subject matter of concern to human rights.  For example, there is a Special Rapporteur on Torture, one on Health, one on Education, one on Violence against women.  It is possible that a Special Rapporteur on Disability or the Human Rights of Persons with Disabilities will be designated in the future.  However, at the present time, there is a Special Rapporteur on the Standard Rules on Equalization of Opportunities for Persons with Disabilities, who is appointed by the Commission on Social Development rather than the Human Rights Council.  NGOs and individuals can submit information to the Special Rapporteurs of the Human Rights Council; it is important to check the procedures and use any forms provided so that your information is handled in the best way.  </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Information about the human rights mechanisms of the United Nations can be found at:  www.ohchr.org</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>WNUSP_CRPD_Manual.txt:940</span>******************************************************</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+APPENDICES</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+1. IDC Legal Capacity Task Force Principles on Implementation of Article 12 
+<br> [TO BE ADDED]</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+2. Glossary of unfamiliar terms and acronyms
+<br>[TO BE ADDED]</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+3. Names of WNUSP members who worked on the Convention:</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+David Webb, Australia
+<br>Ron Carten, Canada
+<br>Karl Bach, Denmark
+<br>Iris Hoelling, Germany
+<br>Janet Amegatcher, Ghana
+<br>Alpha B. Diop, Guinea
+<br>Gabor Gombos, Hungary
+<br>John McCarthy, Ireland
+<br>Mary Maddock, Ireland
+<br>Frank Mulcahy, Ireland
+<br>Amita Dhanda, India
+<br>Tristano Ajmone, Italy
+<br>Mari Yamamoto, Japan
+<br>Ryugan, Japan
+<br>Edah Maina, Kenya
+<br>Chris Hansen, New Zealand
+<br>Mary O’Hagan, New Zealand
+<br>Elena Chavez, Peru
+<br>Moosa Salie, South Africa
+<br>David Stolper, South Africa
+<br>Maths Jesperson, Sweden
+<br>Daniel Iga, Uganda
+<br>Mary Nettle, UK
+<br>Kay Sheldon, UK 
+<br>Tina Minkowitz, USA
+<br>Myra Kovary, USA
+<br>Kate Millett, USA
+<br>Judi Chamberlin, USA
+<br>Sylvia Caras, USA
+<br>Diana S. Kline, USA
+<br>Michele Magar, USA
+<br>MindFreedom International team, led by Celia Brown, USA</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please let us know if we omitted your name!
+<br>4. Reading list 
+<br>Human rights law:
+<br>Minkowitz, Tina. (2007).  “The United Nations Convention on the Rights of Persons with Disabilities and the Right to be Free from Nonconsensual Psychiatric Interventions,” Syracuse Journal of International Law and Commerce Vol. 34 No. 2.
+<br>Dhanda, Amita. (2007). “Legal Capacity in the Disability Rights Convention: 
+<br>Stranglehold of the Past or Lodestar of the Future?” Syracuse Journal of International Law and Commerce Vol. 34 No. 2.
+<br>Alternatives:
+<br>Stastny, Peter and Lehman, Peter, Editors. (2007) Alternatives Beyond Psychiatry, Peter Lehmann Publishing</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please suggest additions that are specifically related to the international aspects of the Convention. </td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+************************************
+<br>************************************************************************</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Motto of the International Disability Caucus (IDC)</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+“NOTHING ABOUT US WITHOUT US”</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+**************************************************************************************************************</td>
+<td class='tra'  lang='zh-CN'>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

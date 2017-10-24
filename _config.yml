@@ -1,11 +1,11 @@
 # Site settings
 title: 精神科幸存者运动 ——超越精神医学
-email: mdrights@tutanota.de
+email: regaudit@tutanota.de
 tagline: Go beyond Coercive Psychiatry
 description: >
   独立人格－独立生活－包容异己－关注边缘
-baseurl: "https://mdrights.github.io/beyond-psychiatry"
-url: "https://mdrights.github.io"
+baseurl: "https://regaudit.github.io/survivor-cn"
+url: "https://regaudit.github.io"
 timezone: UTC
 excerpt_separator: <!--more-->
 
@@ -19,7 +19,7 @@ markdown: kramdown
 # redcarpet: 
 #  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
 exclude: [Gemfile, Gemfile.lock]
-enforce_ssl: mdrights.github.io
+enforce_ssl: regaudit.github.io
 # permalink: /posts/:year/:month/:title.html
 permalink: /posts/:title.html
 

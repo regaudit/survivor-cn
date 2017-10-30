@@ -16,6 +16,8 @@ Some background information:
 
 > It is widerly known that there are many institutions built and run privately for the purposes including "helping" young people to quit "internet addiction symdromes". Most of them are legal in Chinese administrative systems, (but not psychiatric hospitals). Some of them are registered as educational institutes while some others are registered as private medical institutes. Among them, the most notorious one is Yang Yongxin's institution in Shandong province, whose abusive work had been disclosed by mass media several years ago but they are still alive and running. 
 
+<!--more-->
+
 > The tricky thing is that such institutions like Yang's one, legally registered but doing very, very abusive things to the so called "problematic teenagers" who are commited by their parents. The society know the notorious things these institutions do but can stop them hardly. One possible reason would be that those parents are backing such institutions. They think their children are problematic (for instance, playing computer games all day long) and has no ways to cope with their childrens' "problems". Thus they send their children to these isolated institutions. The duration can be from several months to three years! 
 
 > Although the mass media had reported this many times, with quite many sounds of the victims from the social networks, the governments and police had done little on these institutions. Besides some parents' backing, these institutions use their public communiation skills to work out the negative news on media/social network (e.g. buy content-deleting services.) Moreover, they do advertisement to say they are curing young peole and spreading Chinese traditional culture or so.
@@ -25,6 +27,11 @@ Some background information:
 What I am translating here is the most recent disclosure of a victim running away from one of these institutions located in Nanchang, Jiangxi province, called Yuzhang Academy, alledged promising they can cure "internet addiction" by using Chinese traditional culture (but actually only using physical punishment and isolation). According to the victim's word, many young people got mental distress after discharged from the institution. Some even died in there. 
 
 I hope the international communities would get to know about such events and situation here in China. Hope international organizations give stress to Chinese governments and even make independent investigation.  
+
+![Students in institution are punished to stand at 10pm everyday.]({{ site.baseurl }}/img/Yuzhang-academy-zhihu.jpg)  
+_Students in institution are punished to stand at 10pm everyday._
+
+_Some of the articles wrtten by victims on the social network have been saved by me, and can be downloaded at the bottom of this page. (to prevent sensorship)_   
 
 
 ---- Translation begins ----
@@ -133,3 +140,10 @@ I tend to finish translating this article here, since it's main idea and the cor
 Okay, I tend to stop here. Hope you and readers help spread and try to find ways to stop the running of such institutions. Although in some cases (usually the cases of the institution make young people die), the police intervened, there are still a lot of institutions running and torturing. (There is a law regulating this but very weak administrative and criminal enforcement.)  
 
 All the best!
+
+
+### Download
+
+1. [How-many-YangYongxin-zhihu-201710.html]({{ site.baseurl }}/docs/torture/How-many-YangYongxin-zhihu-201710.html)  
+2. [teenager-committed-institution-died-sina.shtml]({{ site.baseurl }}/docs/torture/teenager-committed-institution-died-sina.shtml)  
+3. [How-to-comment-Yuzhang-academy-zhihu.html]({{ site.baseurl }}/docs/torture/How-to-comment-Yuzhang-academy-zhihu.html)

@@ -4,6 +4,7 @@
 ## Chinese Private Institutions Are Still Torturing Young People
 
 _(Translated and collected from Weibo and Zhihu in Chinese language)_  
+_(may be subject to change due to the update of the event)_  
 
 **[Please HELP Spread this !]**  
 

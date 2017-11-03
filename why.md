@@ -22,10 +22,9 @@ permalink: /why/
 - 一个读过精神病学和人类学，关注人类苦痛、自由、压迫、创伤、开源和信息安全的，说粤语的中国北方移民。
 - 更多关于站长的介绍：[About]({{ site.baseurl }}/about)
 - 欢迎参与翻译协作。
-- 欢迎浏览本站源码，和其他项目：[mdrights@github](https://github.com/mdrights)
+- 欢迎浏览本站源码，和其他项目：[regaudit@github](https://github.com/regaudit)
 
 ### 你可以如何参与？
-- Telegram 我吧：[@mdrights](https://telegram.me/mdrights)，介绍一下你自己，讲讲你为何对这个议题感兴趣，有何技能和经验可以帮助这个议题的发展。如果你愿意，也可以聊聊你的个人经历。：）
 - 比如，如果你对自己的英文有信心，可以胜任翻译本站（和相关网站）的英文文章，请联系我。 
 - 如果你认可本站的内容，你更可以将这些知识/资讯传递给身边的朋友，特别是与这个议题相关的人士。  
  

@@ -9,7 +9,7 @@ l10n 就是 localisation 的缩写:-)
 
 这里展示的是正在/已经翻译的文档的中英对照，和翻译进度。
 
-欢迎参与翻译喔~！ 可编辑的翻译文件请前往[翻译仓库](https://github.com/mdrights/CRPD-l10n-zh)，有很多手册/文章等着你翻译喔。
+欢迎参与翻译喔~！ 可编辑的翻译文件请前往[翻译仓库](https://github.com/regaudit/CRPD-l10n-zh)，有很多手册/文章等着你翻译喔。
 
 - [联名信：联合国特别联络员关于每人都需获得最高标准精神健康的权利的报告]({{ site.baseurl }}/CRPD-l10n/Sign-on-letter-UN-SR-report.html)
 

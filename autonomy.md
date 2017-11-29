@@ -37,7 +37,7 @@ permalink: /autonomy/
 
 > 「這手冊是以互助和朋輩支持的精神而寫的，並沒有意圖成為醫療及專業意見。當每一個人都是很不同，而精神科藥物的影響力又是那麼強大的時候，突然或者一個人單獨去脫離它，有時是很危險的。」  
 
-**站长注：期待读者你的读后感，包括这手册在中国文化/社会的合适程度，欢迎点[这里](https://github.com/mdrights/beyond-psychiatry/issues/new)回复/评论一下～** 
+**站长注：期待读者你的读后感，包括这手册在中国文化/社会的合适程度，欢迎点[这里](https://github.com/regaudit/survivor-cn/issues/new)回复/评论一下～** 
 
 <!--![手册封面]({{ site.baseurl }}/img/comingoffpsychdrugs.jpg)-->
 

@@ -1,5 +1,5 @@
 ---
-date: 2017-07-28
+date: 2017-11-28
 permalink: /CRPD-l10n/
 ---
 

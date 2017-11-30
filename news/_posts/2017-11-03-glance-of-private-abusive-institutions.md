@@ -3,7 +3,7 @@
 
 ## A Glance of Chinese Abusive Private Educational Institutions
 
-**Author/translator: Regaudit <regaudit@tutanota.de>**  
+**Author/translator: Regaudit <regaudit at tutanota.de>**  
 
 _(may be subject to change due to the update of the event)_  
 

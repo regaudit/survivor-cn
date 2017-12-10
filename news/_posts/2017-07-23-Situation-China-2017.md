@@ -6,6 +6,8 @@
     - Involuntary hospitalisation enforced by parents/guardian/family members is still there, and there are cases that many persons were forced to admitted their commitment were "voluntary".
     - The criteria of the Dangerousness is still evaluated and implemented by psychiatrists (not other parties or professions).
 
+<!--more-->  
+
 2. Main Obstacles:
     - There are quite a lot mental institutions that do not implement or amend their internal regulations in compliance with MHL (even four years later). Many persons living in the hospitals encountered the abuse of their rights. That needs constant monitoring.
     - Main opposite parties are law experts and family members, not even the State/govs. It's hard to persuade the law makers on the top to reform the (adult) guardianship system to be compliant with CRPD.

@@ -23,6 +23,8 @@ before the law. This is mainly regulated in civil laws of China. Thus, Xu Wei
 and lawyer Yang started their five-year long journey to fight for his right to
 discharge.  
 
+<!--more-->
+
 <hr>
 Lawyer Yang's reflection: 
 

@@ -5,15 +5,14 @@ layout: default
 
 
 <h3>[最新消息]</h3>
-    <div align="right">
-	<a href="{{ site.baseurl }}/toc">［进入目录］</a>
-    </div>
 
+<hr> 
+<br />
 <div class="posts">
   {% for post in site.categories.news %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 
       <div class="entry">
         {{ post.excerpt }}
@@ -25,3 +24,10 @@ layout: default
     </article>
   {% endfor %}
 </div>
+
+<hr>
+<br />  
+
+    <div align="central">
+	<a href="{{ site.baseurl }}/toc">［全站所有文章目录］</a>
+    </div>

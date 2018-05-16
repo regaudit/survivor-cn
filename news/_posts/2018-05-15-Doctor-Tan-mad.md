@@ -15,3 +15,6 @@ A brave enough doctor is made to be mad as he speak the truth while the message 
 
 This is China, in the 21st century.
 
+__The screenshots of the Weibo messages of Tan's wife__
+![1](img/Doctor-Tan/doctor-Tan.jpg)
+![2](img/Doctor-Tan/doctor-Tan-1.jpg)

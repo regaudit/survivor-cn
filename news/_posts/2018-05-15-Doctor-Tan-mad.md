@@ -1,9 +1,11 @@
 ---
 ---
 
-## A Doctor went 'mad' after being detained by police
+## A Doctor went 'mad' after being detained by police (UPDATED)
 
 A Doctor (physician), Tan Qindong, who was detained by police due to writing an article online doubting about the effectiveness of a commercial product: Hongmao wine for medication, was now reported that he has suffered severe "psychiatric symptoms" yesterday, and has been committed to psychiatric hospital as he had isolated himself, self-hurting himself.  
+
+<!--more-->
 
 Dr. Tan is recently well-known to the public that he wrote an article on analysing the effectiveness of an non-prescriptive 'medical' wine-like beverage. This article is widely spread on the Internet of China (mainland). Because of this, the owner of that product, an company based at Inner Mongolia province, is not happy, telling that it has 1.4 million RMB lost due to the article. The police of Inner Mongolia arrested Dr. Tan, who is living in Guangzhou, Guangdong province, at the beginning of this year, for totally 97 days. It is reported that the company has massive power on controlling the its provincial police. 
 
@@ -15,6 +17,12 @@ A brave enough doctor is made to be mad as he speak the truth while the message 
 
 This is China, in the 21st century.
 
+
+**UPDATE**  
+
+About two weeks later, Doctor Tan's wife wrote a microblog on Weibo, saying 'apologies' to the owner company of Hong Mao Wine. Just after her tweeting, the leader of that company tweeted back as they accept his apology and revoke the litigation about Tan's 'damaging business reputation'. And the Inner Mongolian Police said they would not arrest Tan and send him to prosecution again. (Translator: this is ridiculous!)  
+
+<hr>
 __The screenshots of the Weibo messages of Tan's wife__
-![1](img/Doctor-Tan/doctor-Tan.jpg)
-![2](img/Doctor-Tan/doctor-Tan-1.jpg)
+![1]({{ site.baseurl }}/img/Doctor-Tan/doctor-Tan.jpg)
+![2]({{ site.baseurl }}/img/Doctor-Tan/doctor-Tan-1.jpg)
